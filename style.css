@@ -14,10 +14,37 @@
   font-weight:900;
 }
 .floatingNext,.feedback .nextInside{display:none!important;}
-@media(max-width:760px){.choice.correct{padding-right:126px}.choice.correct::after{font-size:11px;right:8px}}
+@media(max-width:760px){.choice.correct{padding-right:126px}}
 
-/* v4: 回答後は画面のどこでもタップして次へ */
-.feedback.ok::after,.feedback.ng::after{
-  content:"画面のどこでもタップで次へ";
-  display:block;margin-top:10px;text-align:center;font-weight:900;color:#1d4ed8;background:#dbeafe;border-radius:999px;padding:10px;
+
+
+
+/* v5: 回答後は透明な全画面レイヤーで、どこをタップしても次へ */
+.tapCatcher{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  display:none;
+  background:rgba(255,255,255,0);
+  cursor:pointer;
+  touch-action:manipulation;
+}
+.tapCatcher.show{
+  display:block;
+}
+.tapCatcher.show::after{
+  content:"タップで次へ";
+  position:fixed;
+  left:50%;
+  bottom:18px;
+  transform:translateX(-50%);
+  background:#111827;
+  color:#ffffff;
+  font-weight:900;
+  font-size:14px;
+  border-radius:999px;
+  padding:10px 16px;
+  box-shadow:0 8px 24px rgba(0,0,0,.22);
+  opacity:.94;
+  pointer-events:none;
 }

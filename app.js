@@ -65,15 +65,19 @@ function makeOptions(item){
   for(let tries=0; tries<30; tries++){ shuffled=opts.slice().sort(()=>Math.random()-0.5); correctLetter=letters[shuffled.findIndex(o=>o.correct)]; const last=meta.lastLetters||[]; if(!(last.length>=2 && last[last.length-1]===correctLetter && last[last.length-2]===correctLetter)) break; }
   return shuffled.map((o,i)=>({...o, letter:letters[i]}));
 }
-function next(){ current=pick(); currentOptions=makeOptions(current); answered=false; started=Date.now(); $('#floatingNext').classList.add('hidden'); clearInterval(timerId); timerId=setInterval(updateTimer,250); render(); }
+function next(){ current=pick(); currentOptions=makeOptions(current); answered=false; started=Date.now(); clearInterval(timerId); timerId=setInterval(updateTimer,250); render(); }
 function updateTimer(){ const sec=Math.floor((Date.now()-started)/1000); $('#timeText').textContent=sec+'s'; $('#timerBar').style.width=Math.min(100,sec/20*100)+'%'; }
 function choose(i){
-  if(answered) return; answered=true; clearInterval(timerId); const opt=currentOptions[i]; const r=rec(current.term); const sec=Math.floor((Date.now()-started)/1000);
+  if(answered){
+    if(currentOptions[i] && currentOptions[i].correct) next();
+    return;
+  }
+  answered=true; clearInterval(timerId); const opt=currentOptions[i]; const r=rec(current.term); const sec=Math.floor((Date.now()-started)/1000);
   r.attempts++; r.lastAt=Date.now(); meta.session++;
   if(opt.correct){ r.correct++; r.streak++; r.last=true; meta.correctSession++; meta.streak++; if(r.streak>=masteryNeed(current)) r.mastered=true; }
   else{ r.wrong++; r.streak=0; r.mastered=false; r.last=false; meta.streak=0; }
   const correctLetter=currentOptions.find(o=>o.correct).letter; meta.lastLetters=(meta.lastLetters||[]).concat([correctLetter]).slice(-5);
-  save(); renderFeedback(opt.correct, sec); renderStats(); renderChoices(); $('#floatingNext').classList.remove('hidden');
+  save(); renderFeedback(opt.correct, sec); renderStats(); renderChoices()
 }
 function render(){
   $('#dayNow').textContent=meta.day; $('#dayNum').textContent=meta.day; $('#dayTitle').textContent=PLAN[meta.day-1][0]; $('#dayMsg').textContent=PLAN[meta.day-1][1];
@@ -83,7 +87,7 @@ function render(){
 function renderChoices(){ const box=$('#choices'); box.innerHTML=''; currentOptions.forEach((o,i)=>{ const b=document.createElement('button'); b.className='choice'; if(answered){ if(o.correct)b.classList.add('correct'); else if(i===currentOptions.findIndex(x=>x===o && false)) b.classList.add(''); } b.innerHTML=`<span class="letter">${o.letter}</span><span>${o.text}</span>`; b.onclick=()=>choose(i); box.appendChild(b); }); }
 function renderFeedback(ok, sec){
   const fb=$('#feedback'); fb.className='feedback '+(ok?'ok':'ng'); const r=rec(current.term);
-  fb.innerHTML=`<h3>${ok?'正解！':'不正解'}　正解：${current.meaningJa}</h3><button class="nextInside" onclick="next()">次の問題へ</button>
+  fb.innerHTML=`<h3>${ok?'正解！':'不正解'}　正解：${current.meaningJa}</h3><div class="tapHint">画面のどこでもタップすると次へ進みます</div>
   <div class="infoGrid"><div class="smallBox"><b>例文</b>${current.example}<br><span>${current.exampleJa}</span></div><div class="smallBox"><b>覚えるポイント</b>${current.point}</div><div class="smallBox"><b>重要フレーズ</b>${current.phrase}</div><div class="smallBox"><b>記録</b>連続正解 ${r.streak}/${masteryNeed(current)}　${r.mastered?'卒業済み':'練習中'}　${sec<=20?'20秒以内OK':'20秒超え'}</div></div>`;
 }
 function renderStats(){ const vals=Object.values(records); const attempts=vals.reduce((s,r)=>s+r.attempts,0), correct=vals.reduce((s,r)=>s+r.correct,0), wrongWords=vals.filter(r=>r.wrong>0&&!r.mastered).length, mastered=vals.filter(r=>r.mastered).length; const rate=attempts?Math.round(correct/attempts*100):0; $('#session').textContent=meta.session||0; $('#correct').textContent=correct; $('#rate').textContent=rate+'%'; $('#streak') && ($('#streak').textContent=meta.streak||0); $('#wrongWords').textContent=wrongWords; $('#mastered').textContent=mastered; $('#titleRank').textContent=rate>=85?'730突破圏':rate>=75?'700点接近':rate>=65?'600点突破圏':'基礎固め中'; }
@@ -97,3 +101,14 @@ function showPlan(){ $('#plan').classList.toggle('show'); }
 function renderPlan(){ const plan=$('#plan'); plan.innerHTML=PLAN.map((p,i)=>`<div class="planDay"><b>Day ${i+1}：${p[0]}</b><br>${p[1]}</div>`).join(''); }
 document.addEventListener('keydown',e=>{ if(['1','2','3','4'].includes(e.key)) choose(Number(e.key)-1); if(e.key==='Enter') next(); });
 window.addEventListener('load',()=>{renderPlan(); setMode(meta.mode||'today'); if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('./sw.js').catch(()=>{});});
+
+// 回答後は画面のどこをタップしても次へ
+function anyTapNext(e){
+  if(state.answered && state.canAnyTapNext){
+    const tag=(e.target.tagName||"").toLowerCase();
+    if(tag==="input" || tag==="label") return;
+    next();
+  }
+}
+document.addEventListener("click", anyTapNext);
+document.addEventListener("touchend", anyTapNext, {passive:true});

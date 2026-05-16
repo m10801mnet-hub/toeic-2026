@@ -6,9 +6,9 @@ const VOCAB = [
     "priority": 5,
     "star": true,
     "phrase": "a pot lid",
-    "point": "★重複。Part 1写真描写で重要。鍋・容器とセット。",
-    "example": "A lid is resting beside the pot.",
-    "exampleJa": "ふたが鍋の横に置かれています。",
+    "point": "lid = ふた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A lid is resting beside the pot on the counter.",
+    "exampleJa": "ふたがカウンター上の鍋の横に置かれています。",
     "day": 1
   },
   {
@@ -18,9 +18,9 @@ const VOCAB = [
     "priority": 5,
     "star": true,
     "phrase": "a wheelbarrow",
-    "point": "★重複。Part 1写真描写で重要。庭・工事・農作業の写真。",
-    "example": "A wheelbarrow is parked near the garden.",
-    "exampleJa": "手押し車が庭の近くに置かれています。",
+    "point": "wheelbarrow = 手押し車。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A wheelbarrow is parked next to the garden shed.",
+    "exampleJa": "手押し車が庭の小屋の横に置かれています。",
     "day": 1
   },
   {
@@ -31,8 +31,8 @@ const VOCAB = [
     "star": true,
     "phrase": "can afford to do",
     "point": "★重複。can afford to do の形で覚える。金銭・時間・余裕。",
-    "example": "The company cannot afford to delay the project.",
-    "exampleJa": "その会社はプロジェクトを遅らせる余裕がありません。",
+    "example": "The company cannot afford to delay the project again.",
+    "exampleJa": "その会社は再びプロジェクトを遅らせる余裕がありません。",
     "day": 1
   },
   {
@@ -43,8 +43,8 @@ const VOCAB = [
     "star": true,
     "phrase": "be aimed at",
     "point": "★重複。be aimed at ～ で覚える。",
-    "example": "The program is aimed at new employees.",
-    "exampleJa": "そのプログラムは新入社員向けです。",
+    "example": "The schedule was aimed after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「向けられた、目的とした」状態になりました。",
     "day": 1
   },
   {
@@ -55,8 +55,8 @@ const VOCAB = [
     "star": true,
     "phrase": "be committed to quality",
     "point": "★重複。be committed to + 名詞/動名詞。toは前置詞。",
-    "example": "Our team is committed to customer satisfaction.",
-    "exampleJa": "私たちのチームは顧客満足に尽力しています。",
+    "example": "Our staff is committed to providing excellent service.",
+    "exampleJa": "当社のスタッフは優れたサービスの提供に尽力しています。",
     "day": 1
   },
   {
@@ -67,8 +67,8 @@ const VOCAB = [
     "star": true,
     "phrase": "machine components",
     "point": "★重複。製造・機械・ITで重要。partsより硬い表現。",
-    "example": "Several components must be replaced.",
-    "exampleJa": "いくつかの部品を交換する必要があります。",
+    "example": "Several machine components must be replaced immediately.",
+    "exampleJa": "いくつかの機械部品を直ちに交換する必要があります。",
     "day": 1
   },
   {
@@ -79,8 +79,8 @@ const VOCAB = [
     "star": true,
     "phrase": "conduct a survey / conduct training",
     "point": "★重複。conduct a survey はTOEIC頻出。do a surveyよりTOEICらしい表現。",
-    "example": "The company will conduct a survey next month.",
-    "exampleJa": "その会社は来月、調査を実施します。",
+    "example": "The company will conduct a customer survey next month.",
+    "exampleJa": "その会社は来月、顧客調査を実施します。",
     "day": 1
   },
   {
@@ -91,8 +91,8 @@ const VOCAB = [
     "star": true,
     "phrase": "currently available / currently seeking",
     "point": "★重複。求人・案内で頻出。現在進行形や形容詞とセット。",
-    "example": "The product is currently available online.",
-    "exampleJa": "その製品は現在オンラインで入手できます。",
+    "example": "The position is currently available in the Kyoto office.",
+    "exampleJa": "その職種は現在、京都オフィスで募集されています。",
     "day": 1
   },
   {
@@ -103,8 +103,8 @@ const VOCAB = [
     "star": true,
     "phrase": "ensure safety / ensure that S V",
     "point": "★重複。ensure + 名詞、ensure that S V の形で覚える。",
-    "example": "Please ensure that all doors are locked.",
-    "exampleJa": "すべてのドアが施錠されていることを確認してください。",
+    "example": "Please ensure that all documents are submitted by Friday.",
+    "exampleJa": "すべての書類が金曜日までに提出されるよう確認してください。",
     "day": 1
   },
   {
@@ -115,8 +115,8 @@ const VOCAB = [
     "star": true,
     "phrase": "office equipment / safety equipment",
     "point": "★重複。不可算名詞として扱われることが多い。Part 1でもPart 7でも出る。",
-    "example": "The technician inspected the new equipment.",
-    "exampleJa": "技術者は新しい機器を点検しました。",
+    "example": "The technician inspected the new equipment before the factory opened.",
+    "exampleJa": "工場が開く前に、技術者は新しい機器を点検しました。",
     "day": 1
   },
   {
@@ -127,7 +127,7 @@ const VOCAB = [
     "star": true,
     "phrase": "an established company",
     "point": "★重複。会社紹介・実績で頻出。establish a reputationも重要。",
-    "example": "The firm is an established supplier of medical devices.",
+    "example": "The company is an established supplier of medical devices.",
     "exampleJa": "その会社は医療機器の定評ある供給業者です。",
     "day": 1
   },
@@ -139,8 +139,8 @@ const VOCAB = [
     "star": true,
     "phrase": "the establishment of a branch",
     "point": "★重複。establishの名詞形。会社・支店設立の文脈で出る。",
-    "example": "The establishment of a new branch was announced.",
-    "exampleJa": "新支店の設立が発表されました。",
+    "example": "The establishment of a new branch was announced yesterday.",
+    "exampleJa": "新支店の設立が昨日発表されました。",
     "day": 1
   },
   {
@@ -151,8 +151,8 @@ const VOCAB = [
     "star": true,
     "phrase": "a historic building",
     "point": "★重複。historic=歴史的に重要。historical=歴史に関する。",
-    "example": "The city is known for its historic buildings.",
-    "exampleJa": "その都市は歴史的建造物で知られています。",
+    "example": "The tour includes a visit to a historic building.",
+    "exampleJa": "そのツアーには歴史的建造物への訪問が含まれます。",
     "day": 1
   },
   {
@@ -163,8 +163,8 @@ const VOCAB = [
     "star": true,
     "phrase": "increase sales / a significant increase",
     "point": "★重複。動詞にも名詞にもなる。increased / increasing / significantly と一緒に出る。",
-    "example": "Sales increased significantly last quarter.",
-    "exampleJa": "売上は前四半期に大幅に増加しました。",
+    "example": "The new advertising campaign led to an increase in online sales.",
+    "exampleJa": "新しい広告キャンペーンはオンライン販売の増加につながりました。",
     "day": 1
   },
   {
@@ -175,8 +175,8 @@ const VOCAB = [
     "star": true,
     "phrase": "lead to increased sales",
     "point": "★重複。原因→結果の文で超頻出。toの後は名詞/動名詞。",
-    "example": "The new campaign may lead to increased sales.",
-    "exampleJa": "新しいキャンペーンは売上増加につながるかもしれません。",
+    "example": "The new training program may lead to higher productivity.",
+    "exampleJa": "新しい研修プログラムは生産性向上につながるかもしれません。",
     "day": 1
   },
   {
@@ -187,8 +187,8 @@ const VOCAB = [
     "star": true,
     "phrase": "overlook a detail / overlook the ocean",
     "point": "★重複。「見落とす」と「見渡す」の2意味。文脈で判断。",
-    "example": "Please do not overlook any important details.",
-    "exampleJa": "重要な詳細を見落とさないでください。",
+    "example": "Please check the report carefully so you do not overlook any details.",
+    "exampleJa": "詳細を見落とさないよう、報告書を注意深く確認してください。",
     "day": 1
   },
   {
@@ -199,8 +199,8 @@ const VOCAB = [
     "star": true,
     "phrase": "prescribe medicine",
     "point": "★重複。医療・規則文脈で出る。prescriptionは処方箋。",
-    "example": "The doctor prescribed medicine for the patient.",
-    "exampleJa": "医師は患者に薬を処方しました。",
+    "example": "Only licensed doctors can prescribe this medication.",
+    "exampleJa": "資格を持つ医師だけがこの薬を処方できます。",
     "day": 1
   },
   {
@@ -223,8 +223,8 @@ const VOCAB = [
     "star": true,
     "phrase": "rarely used",
     "point": "★重複。頻度副詞。否定に近い意味なので文意に注意。",
-    "example": "This entrance is rarely used.",
-    "exampleJa": "この入口はめったに使われません。",
+    "example": "The conference room is rarely used on Fridays.",
+    "exampleJa": "その会議室は金曜日にはめったに使われません。",
     "day": 1
   },
   {
@@ -235,8 +235,8 @@ const VOCAB = [
     "star": true,
     "phrase": "establish a reputation",
     "point": "★重複。establish/build a reputation で覚える。",
-    "example": "The restaurant has established a strong reputation.",
-    "exampleJa": "そのレストランは高い評判を築いています。",
+    "example": "The restaurant has established a strong reputation for quality.",
+    "exampleJa": "そのレストランは品質に対する高い評判を築いています。",
     "day": 1
   },
   {
@@ -259,8 +259,8 @@ const VOCAB = [
     "star": true,
     "phrase": "increase significantly",
     "point": "★重複。動詞や形容詞を修飾する副詞。Part 5品詞問題で出やすい。",
-    "example": "Online sales increased significantly.",
-    "exampleJa": "オンライン販売は大幅に増加しました。",
+    "example": "Operating costs were significantly reduced last year.",
+    "exampleJa": "運営費は昨年大幅に削減されました。",
     "day": 1
   },
   {
@@ -270,7 +270,7 @@ const VOCAB = [
     "priority": 4,
     "star": true,
     "phrase": "leaning against a railing",
-    "point": "★重複。Part 1で位置・姿勢とセット。",
+    "point": "railing = 手すり。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
     "example": "A woman is leaning against a railing.",
     "exampleJa": "女性が手すりにもたれています。",
     "day": 1
@@ -283,8 +283,8 @@ const VOCAB = [
     "star": true,
     "phrase": "an accomplished manager",
     "point": "★重複。accomplish=達成する。形容詞では熟練した。",
-    "example": "She is an accomplished project manager.",
-    "exampleJa": "彼女は熟練したプロジェクトマネージャーです。",
+    "example": "The schedule was accomplished after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「達成した、熟練した」状態になりました。",
     "day": 1
   },
   {
@@ -295,8 +295,8 @@ const VOCAB = [
     "star": true,
     "phrase": "primarily used for",
     "point": "★重複。mostlyと近い副詞。",
-    "example": "This room is primarily used for meetings.",
-    "exampleJa": "この部屋は主に会議に使われます。",
+    "example": "The staff responded primarily to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「主に」対応しました。",
     "day": 1
   },
   {
@@ -306,9 +306,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "accommodate",
-    "point": "accommodate = 収容する、対応する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"accommodate\" appears in a TOEIC-style context.",
-    "exampleJa": "「accommodate」はTOEICの文脈で出る語です。",
+    "point": "accommodate = 収容する、対応する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed accommodate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「収容する、対応する」について話し合いました。",
     "day": 1
   },
   {
@@ -318,9 +318,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "accommodation",
-    "point": "accommodation = 宿泊施設、対応。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"accommodation\" appears in a TOEIC-style context.",
-    "exampleJa": "「accommodation」はTOEICの文脈で出る語です。",
+    "point": "accommodation = 宿泊施設、対応。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about accommodation.",
+    "exampleJa": "その報告書には「宿泊施設、対応」に関する情報が含まれています。",
     "day": 1
   },
   {
@@ -330,9 +330,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "agenda",
-    "point": "agenda = 議題、予定表。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"agenda\" appears in a TOEIC-style context.",
-    "exampleJa": "「agenda」はTOEICの文脈で出る語です。",
+    "point": "agenda = 議題、予定表。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed agenda during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「議題、予定表」について話し合いました。",
     "day": 1
   },
   {
@@ -342,9 +342,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "allocate",
-    "point": "allocate = 割り当てる。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"allocate\" appears in a TOEIC-style context.",
-    "exampleJa": "「allocate」はTOEICの文脈で出る語です。",
+    "point": "allocate = 割り当てる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed allocate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「割り当てる」について話し合いました。",
     "day": 1
   },
   {
@@ -354,9 +354,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "allocation",
-    "point": "allocation = 割り当て。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"allocation\" appears in a TOEIC-style context.",
-    "exampleJa": "「allocation」はTOEICの文脈で出る語です。",
+    "point": "allocation = 割り当て。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about allocation.",
+    "exampleJa": "その報告書には「割り当て」に関する情報が含まれています。",
     "day": 1
   },
   {
@@ -366,9 +366,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "alternative",
-    "point": "alternative = 代替の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"alternative\" appears in a TOEIC-style context.",
-    "exampleJa": "「alternative」はTOEICの文脈で出る語です。",
+    "point": "alternative = 代替の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed alternative during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「代替の」について話し合いました。",
     "day": 1
   },
   {
@@ -378,9 +378,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "as a result of",
-    "point": "as a result of = 〜の結果として。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"as a result of\" appears in a TOEIC-style context.",
-    "exampleJa": "「as a result of」はTOEICの文脈で出る語です。",
+    "point": "as a result of = 〜の結果として。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed as a result of during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜の結果として」について話し合いました。",
     "day": 1
   },
   {
@@ -390,9 +390,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "authorization",
-    "point": "authorization = 承認、認可。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"authorization\" appears in a TOEIC-style context.",
-    "exampleJa": "「authorization」はTOEICの文脈で出る語です。",
+    "point": "authorization = 承認、認可。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about authorization.",
+    "exampleJa": "その報告書には「承認、認可」に関する情報が含まれています。",
     "day": 1
   },
   {
@@ -401,10 +401,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "authorize",
-    "point": "authorize = 承認する、権限を与える。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"authorize\" appears in a TOEIC-style context.",
-    "exampleJa": "「authorize」はTOEICの文脈で出る語です。",
+    "phrase": "authorize a purchase",
+    "point": "authorize = 承認する、権限を与える。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Only the department manager can authorize the purchase.",
+    "exampleJa": "部門マネージャーだけがその購入を承認できます。",
     "day": 1
   },
   {
@@ -414,9 +414,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "branch",
-    "point": "branch = 支店、枝。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"branch\" appears in a TOEIC-style context.",
-    "exampleJa": "「branch」はTOEICの文脈で出る語です。",
+    "point": "branch = 支店、枝。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed branch during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「支店、枝」について話し合いました。",
     "day": 1
   },
   {
@@ -425,10 +425,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "compliance",
-    "point": "compliance = 遵守、法令順守。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"compliance\" appears in a TOEIC-style context.",
-    "exampleJa": "「compliance」はTOEICの文脈で出る語です。",
+    "phrase": "compliance with standards",
+    "point": "compliance = 遵守、法令順守。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company improved compliance with safety standards.",
+    "exampleJa": "その会社は安全基準の遵守を改善しました。",
     "day": 1
   },
   {
@@ -438,9 +438,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "comply with",
-    "point": "comply with = 〜を遵守する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"comply with\" appears in a TOEIC-style context.",
-    "exampleJa": "「comply with」はTOEICの文脈で出る語です。",
+    "point": "comply with = 〜を遵守する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed comply with during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜を遵守する」について話し合いました。",
     "day": 1
   },
   {
@@ -450,9 +450,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "comprehensive",
-    "point": "comprehensive = 包括的な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"comprehensive\" appears in a TOEIC-style context.",
-    "exampleJa": "「comprehensive」はTOEICの文脈で出る語です。",
+    "point": "comprehensive = 包括的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed comprehensive during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「包括的な」について話し合いました。",
     "day": 1
   },
   {
@@ -461,10 +461,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "confidential",
-    "point": "confidential = 機密の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"confidential\" appears in a TOEIC-style context.",
-    "exampleJa": "「confidential」はTOEICの文脈で出る語です。",
+    "phrase": "keep information confidential",
+    "point": "confidential = 機密の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Please keep this client information confidential.",
+    "exampleJa": "この顧客情報は機密扱いにしてください。",
     "day": 1
   },
   {
@@ -474,9 +474,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "confirmation",
-    "point": "confirmation = 確認、確認書。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"confirmation\" appears in a TOEIC-style context.",
-    "exampleJa": "「confirmation」はTOEICの文脈で出る語です。",
+    "point": "confirmation = 確認、確認書。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about confirmation.",
+    "exampleJa": "その報告書には「確認、確認書」に関する情報が含まれています。",
     "day": 1
   },
   {
@@ -486,9 +486,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "contractor",
-    "point": "contractor = 請負業者。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"contractor\" appears in a TOEIC-style context.",
-    "exampleJa": "「contractor」はTOEICの文脈で出る語です。",
+    "point": "contractor = 請負業者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed contractor during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「請負業者」について話し合いました。",
     "day": 1
   },
   {
@@ -497,10 +497,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "despite",
-    "point": "despite = 〜にもかかわらず。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"despite\" appears in a TOEIC-style context.",
-    "exampleJa": "「despite」はTOEICの文脈で出る語です。",
+    "phrase": "despite + 名詞",
+    "point": "despite = 〜にもかかわらず。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Despite the heavy rain, the event was held as scheduled.",
+    "exampleJa": "大雨にもかかわらず、イベントは予定通り開催されました。",
     "day": 1
   },
   {
@@ -510,9 +510,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "due to",
-    "point": "due to = 〜のために。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"due to\" appears in a TOEIC-style context.",
-    "exampleJa": "「due to」はTOEICの文脈で出る語です。",
+    "point": "due to = 〜のために。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed due to during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜のために」について話し合いました。",
     "day": 1
   },
   {
@@ -522,9 +522,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "eligibility",
-    "point": "eligibility = 資格、適格性。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"eligibility\" appears in a TOEIC-style context.",
-    "exampleJa": "「eligibility」はTOEICの文脈で出る語です。",
+    "point": "eligibility = 資格、適格性。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about eligibility.",
+    "exampleJa": "その報告書には「資格、適格性」に関する情報が含まれています。",
     "day": 1
   },
   {
@@ -533,10 +533,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "eligible",
-    "point": "eligible = 資格がある。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"eligible\" appears in a TOEIC-style context.",
-    "exampleJa": "「eligible」はTOEICの文脈で出る語です。",
+    "phrase": "be eligible for",
+    "point": "eligible = 資格がある。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Members are eligible for a discount on hotel reservations.",
+    "exampleJa": "会員はホテル予約の割引を受ける資格があります。",
     "day": 1
   },
   {
@@ -546,9 +546,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "estimate",
-    "point": "estimate = 見積もり、推定する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"estimate\" appears in a TOEIC-style context.",
-    "exampleJa": "「estimate」はTOEICの文脈で出る語です。",
+    "point": "estimate = 見積もり、推定する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed estimate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「見積もり、推定する」について話し合いました。",
     "day": 1
   },
   {
@@ -558,9 +558,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "facility",
-    "point": "facility = 施設、設備。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"facility\" appears in a TOEIC-style context.",
-    "exampleJa": "「facility」はTOEICの文脈で出る語です。",
+    "point": "facility = 施設、設備。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about facility.",
+    "exampleJa": "その報告書には「施設、設備」に関する情報が含まれています。",
     "day": 1
   },
   {
@@ -570,9 +570,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "furthermore",
-    "point": "furthermore = さらに。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"furthermore\" appears in a TOEIC-style context.",
-    "exampleJa": "「furthermore」はTOEICの文脈で出る語です。",
+    "point": "furthermore = さらに。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed furthermore during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「さらに」について話し合いました。",
     "day": 1
   },
   {
@@ -582,9 +582,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "headquarters",
-    "point": "headquarters = 本社。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"headquarters\" appears in a TOEIC-style context.",
-    "exampleJa": "「headquarters」はTOEICの文脈で出る語です。",
+    "point": "headquarters = 本社。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed headquarters during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「本社」について話し合いました。",
     "day": 1
   },
   {
@@ -594,9 +594,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "in accordance with",
-    "point": "in accordance with = 〜に従って。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"in accordance with\" appears in a TOEIC-style context.",
-    "exampleJa": "「in accordance with」はTOEICの文脈で出る語です。",
+    "point": "in accordance with = 〜に従って。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed in accordance with during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜に従って」について話し合いました。",
     "day": 1
   },
   {
@@ -606,9 +606,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "initiative",
-    "point": "initiative = 新しい取り組み。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"initiative\" appears in a TOEIC-style context.",
-    "exampleJa": "「initiative」はTOEICの文脈で出る語です。",
+    "point": "initiative = 新しい取り組み。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed initiative during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「新しい取り組み」について話し合いました。",
     "day": 1
   },
   {
@@ -617,10 +617,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "inventory",
-    "point": "inventory = 在庫。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"inventory\" appears in a TOEIC-style context.",
-    "exampleJa": "「inventory」はTOEICの文脈で出る語です。",
+    "phrase": "check inventory",
+    "point": "inventory = 在庫。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The store checks its inventory every Monday morning.",
+    "exampleJa": "その店は毎週月曜日の朝に在庫を確認します。",
     "day": 1
   },
   {
@@ -629,10 +629,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "invoice",
-    "point": "invoice = 請求書。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"invoice\" appears in a TOEIC-style context.",
-    "exampleJa": "「invoice」はTOEICの文脈で出る語です。",
+    "phrase": "pay an invoice",
+    "point": "invoice = 請求書。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The invoice must be paid within 30 days of receipt.",
+    "exampleJa": "請求書は受領後30日以内に支払われなければなりません。",
     "day": 1
   },
   {
@@ -642,9 +642,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "itinerary",
-    "point": "itinerary = 旅程表。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"itinerary\" appears in a TOEIC-style context.",
-    "exampleJa": "「itinerary」はTOEICの文脈で出る語です。",
+    "point": "itinerary = 旅程表。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed itinerary during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「旅程表」について話し合いました。",
     "day": 1
   },
   {
@@ -654,9 +654,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "maintenance",
-    "point": "maintenance = 保守、メンテナンス。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"maintenance\" appears in a TOEIC-style context.",
-    "exampleJa": "「maintenance」はTOEICの文脈で出る語です。",
+    "point": "maintenance = 保守、メンテナンス。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about maintenance.",
+    "exampleJa": "その報告書には「保守、メンテナンス」に関する情報が含まれています。",
     "day": 1
   },
   {
@@ -665,10 +665,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "mandatory",
-    "point": "mandatory = 必須の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"mandatory\" appears in a TOEIC-style context.",
-    "exampleJa": "「mandatory」はTOEICの文脈で出る語です。",
+    "phrase": "mandatory training",
+    "point": "mandatory = 必須の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Safety training is mandatory for all new employees.",
+    "exampleJa": "安全研修はすべての新入社員に必須です。",
     "day": 1
   },
   {
@@ -678,9 +678,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "manufacturer",
-    "point": "manufacturer = 製造業者。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"manufacturer\" appears in a TOEIC-style context.",
-    "exampleJa": "「manufacturer」はTOEICの文脈で出る語です。",
+    "point": "manufacturer = 製造業者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed manufacturer during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「製造業者」について話し合いました。",
     "day": 1
   },
   {
@@ -690,9 +690,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "minutes",
-    "point": "minutes = 議事録。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"minutes\" appears in a TOEIC-style context.",
-    "exampleJa": "「minutes」はTOEICの文脈で出る語です。",
+    "point": "minutes = 議事録。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed minutes during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「議事録」について話し合いました。",
     "day": 2
   },
   {
@@ -702,9 +702,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "nevertheless",
-    "point": "nevertheless = それにもかかわらず。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"nevertheless\" appears in a TOEIC-style context.",
-    "exampleJa": "「nevertheless」はTOEICの文脈で出る語です。",
+    "point": "nevertheless = それにもかかわらず。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed nevertheless during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「それにもかかわらず」について話し合いました。",
     "day": 2
   },
   {
@@ -714,9 +714,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "on behalf of",
-    "point": "on behalf of = 〜を代表して。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"on behalf of\" appears in a TOEIC-style context.",
-    "exampleJa": "「on behalf of」はTOEICの文脈で出る語です。",
+    "point": "on behalf of = 〜を代表して。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed on behalf of during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜を代表して」について話し合いました。",
     "day": 2
   },
   {
@@ -726,9 +726,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "otherwise",
-    "point": "otherwise = さもなければ、別の方法で。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"otherwise\" appears in a TOEIC-style context.",
-    "exampleJa": "「otherwise」はTOEICの文脈で出る語です。",
+    "point": "otherwise = さもなければ、別の方法で。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed otherwise during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「さもなければ、別の方法で」について話し合いました。",
     "day": 2
   },
   {
@@ -738,9 +738,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "outlet",
-    "point": "outlet = 店舗、コンセント。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"outlet\" appears in a TOEIC-style context.",
-    "exampleJa": "「outlet」はTOEICの文脈で出る語です。",
+    "point": "outlet = 店舗、コンセント。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed outlet during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「店舗、コンセント」について話し合いました。",
     "day": 2
   },
   {
@@ -750,9 +750,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "permanent",
-    "point": "permanent = 永久の、正社員の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"permanent\" appears in a TOEIC-style context.",
-    "exampleJa": "「permanent」はTOEICの文脈で出る語です。",
+    "point": "permanent = 永久の、正社員の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed permanent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「永久の、正社員の」について話し合いました。",
     "day": 2
   },
   {
@@ -761,10 +761,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "prior to",
-    "point": "prior to = 〜の前に。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"prior to\" appears in a TOEIC-style context.",
-    "exampleJa": "「prior to」はTOEICの文脈で出る語です。",
+    "phrase": "prior to the interview",
+    "point": "prior to = 〜の前に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Please arrive at least ten minutes prior to the interview.",
+    "exampleJa": "面接の少なくとも10分前に到着してください。",
     "day": 2
   },
   {
@@ -774,9 +774,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "proceed",
-    "point": "proceed = 進む、続行する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"proceed\" appears in a TOEIC-style context.",
-    "exampleJa": "「proceed」はTOEICの文脈で出る語です。",
+    "point": "proceed = 進む、続行する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was proceed after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「進む、続行する」状態になりました。",
     "day": 2
   },
   {
@@ -786,9 +786,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "quotation",
-    "point": "quotation = 見積もり、引用。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"quotation\" appears in a TOEIC-style context.",
-    "exampleJa": "「quotation」はTOEICの文脈で出る語です。",
+    "point": "quotation = 見積もり、引用。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about quotation.",
+    "exampleJa": "その報告書には「見積もり、引用」に関する情報が含まれています。",
     "day": 2
   },
   {
@@ -798,9 +798,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "receipt",
-    "point": "receipt = 領収書、受領。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"receipt\" appears in a TOEIC-style context.",
-    "exampleJa": "「receipt」はTOEICの文脈で出る語です。",
+    "point": "receipt = 領収書、受領。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed receipt during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「領収書、受領」について話し合いました。",
     "day": 2
   },
   {
@@ -809,10 +809,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "regarding",
-    "point": "regarding = 〜に関して。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"regarding\" appears in a TOEIC-style context.",
-    "exampleJa": "「regarding」はTOEICの文脈で出る語です。",
+    "phrase": "regarding your reservation",
+    "point": "regarding = 〜に関して。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Please contact us regarding your reservation.",
+    "exampleJa": "予約に関しては当社までご連絡ください。",
     "day": 2
   },
   {
@@ -822,9 +822,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "regardless of",
-    "point": "regardless of = 〜に関係なく。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"regardless of\" appears in a TOEIC-style context.",
-    "exampleJa": "「regardless of」はTOEICの文脈で出る語です。",
+    "point": "regardless of = 〜に関係なく。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed regardless of during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜に関係なく」について話し合いました。",
     "day": 2
   },
   {
@@ -833,10 +833,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "reimburse",
-    "point": "reimburse = 払い戻す、返金する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"reimburse\" appears in a TOEIC-style context.",
-    "exampleJa": "「reimburse」はTOEICの文脈で出る語です。",
+    "phrase": "reimburse expenses",
+    "point": "reimburse = 払い戻す、返金する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company will reimburse employees for travel expenses.",
+    "exampleJa": "会社は従業員に出張費を払い戻します。",
     "day": 2
   },
   {
@@ -846,9 +846,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "reimbursement",
-    "point": "reimbursement = 払い戻し。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"reimbursement\" appears in a TOEIC-style context.",
-    "exampleJa": "「reimbursement」はTOEICの文脈で出る語です。",
+    "point": "reimbursement = 払い戻し。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about reimbursement.",
+    "exampleJa": "その報告書には「払い戻し」に関する情報が含まれています。",
     "day": 2
   },
   {
@@ -858,9 +858,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "reliability",
-    "point": "reliability = 信頼性。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"reliability\" appears in a TOEIC-style context.",
-    "exampleJa": "「reliability」はTOEICの文脈で出る語です。",
+    "point": "reliability = 信頼性。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about reliability.",
+    "exampleJa": "その報告書には「信頼性」に関する情報が含まれています。",
     "day": 2
   },
   {
@@ -870,9 +870,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "reliable",
-    "point": "reliable = 信頼できる。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"reliable\" appears in a TOEIC-style context.",
-    "exampleJa": "「reliable」はTOEICの文脈で出る語です。",
+    "point": "reliable = 信頼できる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed reliable during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「信頼できる」について話し合いました。",
     "day": 2
   },
   {
@@ -882,9 +882,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "renovation",
-    "point": "renovation = 改装。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"renovation\" appears in a TOEIC-style context.",
-    "exampleJa": "「renovation」はTOEICの文脈で出る語です。",
+    "point": "renovation = 改装。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about renovation.",
+    "exampleJa": "その報告書には「改装」に関する情報が含まれています。",
     "day": 2
   },
   {
@@ -894,9 +894,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "replacement",
-    "point": "replacement = 交換品、代替品。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"replacement\" appears in a TOEIC-style context.",
-    "exampleJa": "「replacement」はTOEICの文脈で出る語です。",
+    "point": "replacement = 交換品、代替品。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about replacement.",
+    "exampleJa": "その報告書には「交換品、代替品」に関する情報が含まれています。",
     "day": 2
   },
   {
@@ -906,9 +906,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "representative",
-    "point": "representative = 担当者、代表者。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"representative\" appears in a TOEIC-style context.",
-    "exampleJa": "「representative」はTOEICの文脈で出る語です。",
+    "point": "representative = 担当者、代表者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed representative during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「担当者、代表者」について話し合いました。",
     "day": 2
   },
   {
@@ -918,9 +918,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "retailer",
-    "point": "retailer = 小売業者。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"retailer\" appears in a TOEIC-style context.",
-    "exampleJa": "「retailer」はTOEICの文脈で出る語です。",
+    "point": "retailer = 小売業者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed retailer during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「小売業者」について話し合いました。",
     "day": 2
   },
   {
@@ -930,9 +930,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "shortly",
-    "point": "shortly = まもなく。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"shortly\" appears in a TOEIC-style context.",
-    "exampleJa": "「shortly」はTOEICの文脈で出る語です。",
+    "point": "shortly = まもなく。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded shortly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「まもなく」対応しました。",
     "day": 2
   },
   {
@@ -942,9 +942,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "specification",
-    "point": "specification = 仕様、仕様書。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"specification\" appears in a TOEIC-style context.",
-    "exampleJa": "「specification」はTOEICの文脈で出る語です。",
+    "point": "specification = 仕様、仕様書。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about specification.",
+    "exampleJa": "その報告書には「仕様、仕様書」に関する情報が含まれています。",
     "day": 2
   },
   {
@@ -954,9 +954,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "subscription",
-    "point": "subscription = 定期購読、加入。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"subscription\" appears in a TOEIC-style context.",
-    "exampleJa": "「subscription」はTOEICの文脈で出る語です。",
+    "point": "subscription = 定期購読、加入。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about subscription.",
+    "exampleJa": "その報告書には「定期購読、加入」に関する情報が含まれています。",
     "day": 2
   },
   {
@@ -966,9 +966,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "subsequent",
-    "point": "subsequent = その後の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"subsequent\" appears in a TOEIC-style context.",
-    "exampleJa": "「subsequent」はTOEICの文脈で出る語です。",
+    "point": "subsequent = その後の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed subsequent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「その後の」について話し合いました。",
     "day": 2
   },
   {
@@ -978,9 +978,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "subsidiary",
-    "point": "subsidiary = 子会社。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"subsidiary\" appears in a TOEIC-style context.",
-    "exampleJa": "「subsidiary」はTOEICの文脈で出る語です。",
+    "point": "subsidiary = 子会社。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed subsidiary during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「子会社」について話し合いました。",
     "day": 2
   },
   {
@@ -990,9 +990,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "supplier",
-    "point": "supplier = 供給業者。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"supplier\" appears in a TOEIC-style context.",
-    "exampleJa": "「supplier」はTOEICの文脈で出る語です。",
+    "point": "supplier = 供給業者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed supplier during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「供給業者」について話し合いました。",
     "day": 2
   },
   {
@@ -1002,9 +1002,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "temporary",
-    "point": "temporary = 一時的な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"temporary\" appears in a TOEIC-style context.",
-    "exampleJa": "「temporary」はTOEICの文脈で出る語です。",
+    "point": "temporary = 一時的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed temporary during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「一時的な」について話し合いました。",
     "day": 2
   },
   {
@@ -1014,9 +1014,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "therefore",
-    "point": "therefore = したがって。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"therefore\" appears in a TOEIC-style context.",
-    "exampleJa": "「therefore」はTOEICの文脈で出る語です。",
+    "point": "therefore = したがって。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The shipment was delayed; therefore, customers were notified.",
+    "exampleJa": "出荷が遅れたため、顧客に通知されました。",
     "day": 2
   },
   {
@@ -1026,9 +1026,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "transfer",
-    "point": "transfer = 移す、転送する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"transfer\" appears in a TOEIC-style context.",
-    "exampleJa": "「transfer」はTOEICの文脈で出る語です。",
+    "point": "transfer = 移す、転送する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed transfer during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「移す、転送する」について話し合いました。",
     "day": 2
   },
   {
@@ -1037,10 +1037,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 5,
     "star": false,
-    "phrase": "unless",
-    "point": "unless = 〜でない限り。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"unless\" appears in a TOEIC-style context.",
-    "exampleJa": "「unless」はTOEICの文脈で出る語です。",
+    "phrase": "unless S V",
+    "point": "unless = 〜でない限り。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The store will remain closed unless repairs are completed.",
+    "exampleJa": "修理が完了しない限り、その店は閉店したままです。",
     "day": 2
   },
   {
@@ -1050,9 +1050,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "upgrade",
-    "point": "upgrade = 改善する、アップグレード。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"upgrade\" appears in a TOEIC-style context.",
-    "exampleJa": "「upgrade」はTOEICの文脈で出る語です。",
+    "point": "upgrade = 改善する、アップグレード。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed upgrade during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「改善する、アップグレード」について話し合いました。",
     "day": 2
   },
   {
@@ -1062,9 +1062,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "vendor",
-    "point": "vendor = 販売業者、業者。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"vendor\" appears in a TOEIC-style context.",
-    "exampleJa": "「vendor」はTOEICの文脈で出る語です。",
+    "point": "vendor = 販売業者、業者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed vendor during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「販売業者、業者」について話し合いました。",
     "day": 2
   },
   {
@@ -1074,9 +1074,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "venue",
-    "point": "venue = 会場。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"venue\" appears in a TOEIC-style context.",
-    "exampleJa": "「venue」はTOEICの文脈で出る語です。",
+    "point": "venue = 会場。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed venue during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「会場」について話し合いました。",
     "day": 2
   },
   {
@@ -1086,9 +1086,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "verification",
-    "point": "verification = 確認、検証。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"verification\" appears in a TOEIC-style context.",
-    "exampleJa": "「verification」はTOEICの文脈で出る語です。",
+    "point": "verification = 確認、検証。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about verification.",
+    "exampleJa": "その報告書には「確認、検証」に関する情報が含まれています。",
     "day": 2
   },
   {
@@ -1098,9 +1098,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "verify",
-    "point": "verify = 確認する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"verify\" appears in a TOEIC-style context.",
-    "exampleJa": "「verify」はTOEICの文脈で出る語です。",
+    "point": "verify = 確認する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed verify during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「確認する」について話し合いました。",
     "day": 2
   },
   {
@@ -1110,9 +1110,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "whereas",
-    "point": "whereas = 一方で。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"whereas\" appears in a TOEIC-style context.",
-    "exampleJa": "「whereas」はTOEICの文脈で出る語です。",
+    "point": "whereas = 一方で。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed whereas during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「一方で」について話し合いました。",
     "day": 2
   },
   {
@@ -1122,9 +1122,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "wholesale",
-    "point": "wholesale = 卸売の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"wholesale\" appears in a TOEIC-style context.",
-    "exampleJa": "「wholesale」はTOEICの文脈で出る語です。",
+    "point": "wholesale = 卸売の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed wholesale during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「卸売の」について話し合いました。",
     "day": 2
   },
   {
@@ -1134,9 +1134,9 @@ const VOCAB = [
     "priority": 5,
     "star": false,
     "phrase": "withdraw",
-    "point": "withdraw = 引き出す、撤回する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"withdraw\" appears in a TOEIC-style context.",
-    "exampleJa": "「withdraw」はTOEICの文脈で出る語です。",
+    "point": "withdraw = 引き出す、撤回する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed withdraw during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「引き出す、撤回する」について話し合いました。",
     "day": 2
   },
   {
@@ -1145,10 +1145,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "adjusting",
-    "point": "adjusting はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows adjusting.",
-    "exampleJa": "写真には「調整している」が写っています。",
+    "phrase": "adjusting a microphone",
+    "point": "adjusting = 調整している。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A technician is adjusting a microphone.",
+    "exampleJa": "技術者がマイクを調整しています。",
     "day": 2
   },
   {
@@ -1158,9 +1158,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "appliance",
-    "point": "appliance = 家電、機器。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"appliance\" appears in a TOEIC-style context.",
-    "exampleJa": "「appliance」はTOEICの文脈で出る語です。",
+    "point": "appliance = 家電、機器。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A appliance can be seen in the picture.",
+    "exampleJa": "写真の中に「家電、機器」が見えます。",
     "day": 2
   },
   {
@@ -1170,9 +1170,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "arranged",
-    "point": "arranged はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows arranged.",
-    "exampleJa": "写真には「配置された、整えられた」が写っています。",
+    "point": "arranged = 配置された、整えられた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A arranged can be seen in the picture.",
+    "exampleJa": "写真の中に「配置された、整えられた」が見えます。",
     "day": 2
   },
   {
@@ -1181,10 +1181,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "awning",
-    "point": "awning はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows awning.",
-    "exampleJa": "写真には「日よけ、オーニング」が写っています。",
+    "phrase": "under an awning",
+    "point": "awning = 日よけ、オーニング。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Customers are standing under an awning.",
+    "exampleJa": "顧客が日よけの下に立っています。",
     "day": 2
   },
   {
@@ -1193,10 +1193,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "bulletin board",
-    "point": "bulletin board はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows bulletin board.",
-    "exampleJa": "写真には「掲示板」が写っています。",
+    "phrase": "posted on a bulletin board",
+    "point": "bulletin board = 掲示板。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Notices are posted on a bulletin board.",
+    "exampleJa": "掲示物が掲示板に貼られています。",
     "day": 2
   },
   {
@@ -1206,9 +1206,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "cabinet",
-    "point": "cabinet = 戸棚。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"cabinet\" appears in a TOEIC-style context.",
-    "exampleJa": "「cabinet」はTOEICの文脈で出る語です。",
+    "point": "cabinet = 戸棚。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A cabinet can be seen in the picture.",
+    "exampleJa": "写真の中に「戸棚」が見えます。",
     "day": 2
   },
   {
@@ -1218,9 +1218,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "cash register",
-    "point": "cash register = レジ。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"cash register\" appears in a TOEIC-style context.",
-    "exampleJa": "「cash register」はTOEICの文脈で出る語です。",
+    "point": "cash register = レジ。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A cash register can be seen in the picture.",
+    "exampleJa": "写真の中に「レジ」が見えます。",
     "day": 2
   },
   {
@@ -1230,9 +1230,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "checkout counter",
-    "point": "checkout counter = 会計カウンター。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"checkout counter\" appears in a TOEIC-style context.",
-    "exampleJa": "「checkout counter」はTOEICの文脈で出る語です。",
+    "point": "checkout counter = 会計カウンター。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A checkout counter can be seen in the picture.",
+    "exampleJa": "写真の中に「会計カウンター」が見えます。",
     "day": 2
   },
   {
@@ -1242,9 +1242,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "construction site",
-    "point": "construction site = 建設現場。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"construction site\" appears in a TOEIC-style context.",
-    "exampleJa": "「construction site」はTOEICの文脈で出る語です。",
+    "point": "construction site = 建設現場。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A construction site can be seen in the picture.",
+    "exampleJa": "写真の中に「建設現場」が見えます。",
     "day": 2
   },
   {
@@ -1254,9 +1254,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "conveyor belt",
-    "point": "conveyor belt = ベルトコンベヤー。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"conveyor belt\" appears in a TOEIC-style context.",
-    "exampleJa": "「conveyor belt」はTOEICの文脈で出る語です。",
+    "point": "conveyor belt = ベルトコンベヤー。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A conveyor belt can be seen in the picture.",
+    "exampleJa": "写真の中に「ベルトコンベヤー」が見えます。",
     "day": 2
   },
   {
@@ -1266,9 +1266,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "countertop",
-    "point": "countertop = カウンター表面。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"countertop\" appears in a TOEIC-style context.",
-    "exampleJa": "「countertop」はTOEICの文脈で出る語です。",
+    "point": "countertop = カウンター表面。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A countertop can be seen in the picture.",
+    "exampleJa": "写真の中に「カウンター表面」が見えます。",
     "day": 2
   },
   {
@@ -1277,10 +1277,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "crates",
-    "point": "crates はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows crates.",
-    "exampleJa": "写真には「木箱、コンテナ」が写っています。",
+    "phrase": "crates are stacked",
+    "point": "crates = 木箱、コンテナ。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Crates are stacked near the loading area.",
+    "exampleJa": "木箱が荷積み場所の近くに積まれています。",
     "day": 2
   },
   {
@@ -1289,10 +1289,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "crosswalk",
-    "point": "crosswalk はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows crosswalk.",
-    "exampleJa": "写真には「横断歩道」が写っています。",
+    "phrase": "at a crosswalk",
+    "point": "crosswalk = 横断歩道。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Pedestrians are waiting at a crosswalk.",
+    "exampleJa": "歩行者が横断歩道で待っています。",
     "day": 2
   },
   {
@@ -1301,10 +1301,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "crouching",
-    "point": "crouching はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows crouching.",
-    "exampleJa": "写真には「しゃがんでいる」が写っています。",
+    "phrase": "is crouching beside",
+    "point": "crouching = しゃがんでいる。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A worker is crouching beside a machine.",
+    "exampleJa": "作業員が機械の横でしゃがんでいます。",
     "day": 2
   },
   {
@@ -1314,9 +1314,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "curb",
-    "point": "curb = 縁石。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"curb\" appears in a TOEIC-style context.",
-    "exampleJa": "「curb」はTOEICの文脈で出る語です。",
+    "point": "curb = 縁石。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A curb can be seen in the picture.",
+    "exampleJa": "写真の中に「縁石」が見えます。",
     "day": 2
   },
   {
@@ -1326,9 +1326,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "device",
-    "point": "device はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows device.",
-    "exampleJa": "写真には「機器、端末」が写っています。",
+    "point": "device = 機器、端末。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A device can be seen in the picture.",
+    "exampleJa": "写真の中に「機器、端末」が見えます。",
     "day": 2
   },
   {
@@ -1338,9 +1338,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "display case",
-    "point": "display case = 陳列ケース。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"display case\" appears in a TOEIC-style context.",
-    "exampleJa": "「display case」はTOEICの文脈で出る語です。",
+    "point": "display case = 陳列ケース。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A display case can be seen in the picture.",
+    "exampleJa": "写真の中に「陳列ケース」が見えます。",
     "day": 2
   },
   {
@@ -1349,10 +1349,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "furnished",
-    "point": "furnished はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows furnished.",
-    "exampleJa": "写真には「家具付きの」が写っています。",
+    "phrase": "fully furnished",
+    "point": "furnished = 家具付きの。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "The apartment is fully furnished.",
+    "exampleJa": "そのアパートは家具付きです。",
     "day": 2
   },
   {
@@ -1361,10 +1361,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "glancing",
-    "point": "glancing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows glancing.",
-    "exampleJa": "写真には「ちらっと見ている」が写っています。",
+    "phrase": "glancing at",
+    "point": "glancing = ちらっと見ている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A woman is glancing at her phone.",
+    "exampleJa": "女性が携帯電話をちらっと見ています。",
     "day": 2
   },
   {
@@ -1373,10 +1373,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "hallway",
-    "point": "hallway はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows hallway.",
-    "exampleJa": "写真には「廊下」が写っています。",
+    "phrase": "walking down a hallway",
+    "point": "hallway = 廊下。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A man is walking down a hallway.",
+    "exampleJa": "男性が廊下を歩いています。",
     "day": 3
   },
   {
@@ -1385,10 +1385,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "intersection",
-    "point": "intersection はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows intersection.",
-    "exampleJa": "写真には「交差点」が写っています。",
+    "phrase": "at an intersection",
+    "point": "intersection = 交差点。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several cars are stopped at an intersection.",
+    "exampleJa": "数台の車が交差点で停まっています。",
     "day": 3
   },
   {
@@ -1397,10 +1397,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "ladder",
-    "point": "ladder はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows ladder.",
-    "exampleJa": "写真には「はしご」が写っています。",
+    "phrase": "leaning against a wall",
+    "point": "ladder = はしご。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A ladder is leaning against the wall.",
+    "exampleJa": "はしごが壁に立てかけられています。",
     "day": 3
   },
   {
@@ -1410,9 +1410,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "landscaping",
-    "point": "landscaping = 造園、景観整備。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"landscaping\" appears in a TOEIC-style context.",
-    "exampleJa": "「landscaping」はTOEICの文脈で出る語です。",
+    "point": "landscaping = 造園、景観整備。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is landscaping near the work area.",
+    "exampleJa": "人が作業場所の近くで「造園、景観整備」動作をしています。",
     "day": 3
   },
   {
@@ -1421,10 +1421,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "lawn mower",
-    "point": "lawn mower はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows lawn mower.",
-    "exampleJa": "写真には「芝刈り機」が写っています。",
+    "phrase": "pushing a lawn mower",
+    "point": "lawn mower = 芝刈り機。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A man is pushing a lawn mower across the grass.",
+    "exampleJa": "男性が芝生の上で芝刈り機を押しています。",
     "day": 3
   },
   {
@@ -1433,10 +1433,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "leaning",
-    "point": "leaning はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows leaning.",
-    "exampleJa": "写真には「寄りかかっている、立てかけている」が写っています。",
+    "phrase": "leaning against",
+    "point": "leaning = 寄りかかっている、立てかけている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A bicycle is leaning against a railing.",
+    "exampleJa": "自転車が手すりに立てかけられています。",
     "day": 3
   },
   {
@@ -1446,9 +1446,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "light fixture",
-    "point": "light fixture はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows light fixture.",
-    "exampleJa": "写真には「照明器具」が写っています。",
+    "point": "light fixture = 照明器具。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A light fixture is hanging from the ceiling.",
+    "exampleJa": "照明器具が天井から下がっています。",
     "day": 3
   },
   {
@@ -1458,9 +1458,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "loading dock",
-    "point": "loading dock = 荷積み場。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"loading dock\" appears in a TOEIC-style context.",
-    "exampleJa": "「loading dock」はTOEICの文脈で出る語です。",
+    "point": "loading dock = 荷積み場。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A loading dock can be seen in the picture.",
+    "exampleJa": "写真の中に「荷積み場」が見えます。",
     "day": 3
   },
   {
@@ -1469,10 +1469,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "mounted",
-    "point": "mounted はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows mounted.",
-    "exampleJa": "写真には「取り付けられた」が写っています。",
+    "phrase": "mounted on the wall",
+    "point": "mounted = 取り付けられた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A television is mounted on the wall.",
+    "exampleJa": "テレビが壁に取り付けられています。",
     "day": 3
   },
   {
@@ -1482,9 +1482,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "overhead",
-    "point": "overhead = 頭上の。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"overhead\" appears in a TOEIC-style context.",
-    "exampleJa": "「overhead」はTOEICの文脈で出る語です。",
+    "point": "overhead = 頭上の。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A overhead can be seen in the picture.",
+    "exampleJa": "写真の中に「頭上の」が見えます。",
     "day": 3
   },
   {
@@ -1494,9 +1494,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "parking lot",
-    "point": "parking lot = 駐車場。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"parking lot\" appears in a TOEIC-style context.",
-    "exampleJa": "「parking lot」はTOEICの文脈で出る語です。",
+    "point": "parking lot = 駐車場。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A parking lot can be seen in the picture.",
+    "exampleJa": "写真の中に「駐車場」が見えます。",
     "day": 3
   },
   {
@@ -1506,9 +1506,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "pavement",
-    "point": "pavement = 歩道、舗装道路。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"pavement\" appears in a TOEIC-style context.",
-    "exampleJa": "「pavement」はTOEICの文脈で出る語です。",
+    "point": "pavement = 歩道、舗装道路。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A pavement can be seen in the picture.",
+    "exampleJa": "写真の中に「歩道、舗装道路」が見えます。",
     "day": 3
   },
   {
@@ -1518,9 +1518,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "pedestrian",
-    "point": "pedestrian = 歩行者。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"pedestrian\" appears in a TOEIC-style context.",
-    "exampleJa": "「pedestrian」はTOEICの文脈で出る語です。",
+    "point": "pedestrian = 歩行者。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A pedestrian can be seen in the picture.",
+    "exampleJa": "写真の中に「歩行者」が見えます。",
     "day": 3
   },
   {
@@ -1530,9 +1530,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "positioned",
-    "point": "positioned はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows positioned.",
-    "exampleJa": "写真には「置かれた、配置された」が写っています。",
+    "point": "positioned = 置かれた、配置された。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A positioned can be seen in the picture.",
+    "exampleJa": "写真の中に「置かれた、配置された」が見えます。",
     "day": 3
   },
   {
@@ -1541,10 +1541,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "potted plant",
-    "point": "potted plant はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows potted plant.",
-    "exampleJa": "写真には「鉢植え」が写っています。",
+    "phrase": "a potted plant",
+    "point": "potted plant = 鉢植え。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A potted plant is placed beside the doorway.",
+    "exampleJa": "鉢植えが出入口の横に置かれています。",
     "day": 3
   },
   {
@@ -1554,9 +1554,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "receptionist",
-    "point": "receptionist はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows receptionist.",
-    "exampleJa": "写真には「受付係」が写っています。",
+    "point": "receptionist = 受付係。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A receptionist can be seen in the picture.",
+    "exampleJa": "写真の中に「受付係」が見えます。",
     "day": 3
   },
   {
@@ -1566,9 +1566,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "scaffolding",
-    "point": "scaffolding = 足場。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"scaffolding\" appears in a TOEIC-style context.",
-    "exampleJa": "「scaffolding」はTOEICの文脈で出る語です。",
+    "point": "scaffolding = 足場。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is scaffolding near the work area.",
+    "exampleJa": "人が作業場所の近くで「足場」動作をしています。",
     "day": 3
   },
   {
@@ -1577,10 +1577,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "shelves",
-    "point": "shelves はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows shelves.",
-    "exampleJa": "写真には「棚」が写っています。",
+    "phrase": "arranged on shelves",
+    "point": "shelves = 棚。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Products are arranged on the shelves.",
+    "exampleJa": "商品が棚に並べられています。",
     "day": 3
   },
   {
@@ -1590,9 +1590,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "sidewalk",
-    "point": "sidewalk = 歩道。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"sidewalk\" appears in a TOEIC-style context.",
-    "exampleJa": "「sidewalk」はTOEICの文脈で出る語です。",
+    "point": "sidewalk = 歩道。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A sidewalk can be seen in the picture.",
+    "exampleJa": "写真の中に「歩道」が見えます。",
     "day": 3
   },
   {
@@ -1602,9 +1602,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "spacious",
-    "point": "spacious = 広々とした。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"spacious\" appears in a TOEIC-style context.",
-    "exampleJa": "「spacious」はTOEICの文脈で出る語です。",
+    "point": "spacious = 広々とした。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several spacious are arranged near the wall.",
+    "exampleJa": "いくつかの「広々とした」が壁の近くに並べられています。",
     "day": 3
   },
   {
@@ -1613,10 +1613,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "stacked",
-    "point": "stacked はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows stacked.",
-    "exampleJa": "写真には「積み重ねられた」が写っています。",
+    "phrase": "stacked against",
+    "point": "stacked = 積み重ねられた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Boxes are stacked against the wall.",
+    "exampleJa": "箱が壁際に積まれています。",
     "day": 3
   },
   {
@@ -1625,10 +1625,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "staircase",
-    "point": "staircase はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows staircase.",
-    "exampleJa": "写真には「階段」が写っています。",
+    "phrase": "descending a staircase",
+    "point": "staircase = 階段。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A woman is descending a staircase.",
+    "exampleJa": "女性が階段を降りています。",
     "day": 3
   },
   {
@@ -1637,10 +1637,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "suspended",
-    "point": "suspended はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows suspended.",
-    "exampleJa": "写真には「つるされた、一時停止の」が写っています。",
+    "phrase": "suspended from",
+    "point": "suspended = つるされた、一時停止の。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several lights are suspended from the ceiling.",
+    "exampleJa": "いくつかの照明が天井からつるされています。",
     "day": 3
   },
   {
@@ -1649,10 +1649,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "sweeping",
-    "point": "sweeping はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows sweeping.",
-    "exampleJa": "写真には「掃いている」が写っています。",
+    "phrase": "is sweeping the floor",
+    "point": "sweeping = 掃いている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A man is sweeping the floor near the entrance.",
+    "exampleJa": "男性が入口の近くで床を掃いています。",
     "day": 3
   },
   {
@@ -1661,10 +1661,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "unattended",
-    "point": "unattended はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows unattended.",
-    "exampleJa": "写真には「無人の、放置された」が写っています。",
+    "phrase": "unattended luggage",
+    "point": "unattended = 無人の、放置された。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Some luggage has been left unattended.",
+    "exampleJa": "いくつかの荷物が放置されています。",
     "day": 3
   },
   {
@@ -1674,9 +1674,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "utensils",
-    "point": "utensils = 調理器具。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"utensils\" appears in a TOEIC-style context.",
-    "exampleJa": "「utensils」はTOEICの文脈で出る語です。",
+    "point": "utensils = 調理器具。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several utensils are arranged near the wall.",
+    "exampleJa": "いくつかの「調理器具」が壁の近くに並べられています。",
     "day": 3
   },
   {
@@ -1686,9 +1686,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "vacant",
-    "point": "vacant = 空いている。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"vacant\" appears in a TOEIC-style context.",
-    "exampleJa": "「vacant」はTOEICの文脈で出る語です。",
+    "point": "vacant = 空いている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A vacant can be seen in the picture.",
+    "exampleJa": "写真の中に「空いている」が見えます。",
     "day": 3
   },
   {
@@ -1697,10 +1697,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "walking",
-    "point": "walking はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows walking.",
-    "exampleJa": "写真には「歩いている」が写っています。",
+    "phrase": "walking along a path",
+    "point": "walking = 歩いている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "People are walking along a path.",
+    "exampleJa": "人々が小道を歩いています。",
     "day": 3
   },
   {
@@ -1710,9 +1710,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "warehouse",
-    "point": "warehouse = 倉庫。Part 1写真描写で一瞬で反応する。",
-    "example": "The term \"warehouse\" appears in a TOEIC-style context.",
-    "exampleJa": "「warehouse」はTOEICの文脈で出る語です。",
+    "point": "warehouse = 倉庫。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A warehouse can be seen in the picture.",
+    "exampleJa": "写真の中に「倉庫」が見えます。",
     "day": 3
   },
   {
@@ -1722,9 +1722,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "wearing",
-    "point": "wearing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows wearing.",
-    "exampleJa": "写真には「身につけている」が写っています。",
+    "point": "wearing = 身につけている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is wearing near the work area.",
+    "exampleJa": "人が作業場所の近くで「身につけている」動作をしています。",
     "day": 3
   },
   {
@@ -1733,10 +1733,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 4,
     "star": false,
-    "phrase": "workstation",
-    "point": "workstation はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows workstation.",
-    "exampleJa": "写真には「作業台、作業場所」が写っています。",
+    "phrase": "at a workstation",
+    "point": "workstation = 作業台、作業場所。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "An employee is seated at a workstation.",
+    "exampleJa": "従業員が作業台に座っています。",
     "day": 3
   },
   {
@@ -1745,10 +1745,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "accessible",
-    "point": "accessible = アクセスしやすい、利用しやすい。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"accessible\" appears in a TOEIC-style context.",
-    "exampleJa": "「accessible」はTOEICの文脈で出る語です。",
+    "phrase": "accessible by",
+    "point": "accessible = アクセスしやすい、利用しやすい。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The building is accessible by public transportation.",
+    "exampleJa": "その建物は公共交通機関でアクセスできます。",
     "day": 3
   },
   {
@@ -1758,9 +1758,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "accurate",
-    "point": "accurate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: accurate.",
-    "exampleJa": "この表現はTOEICで重要です：正確な。",
+    "point": "accurate = 正確な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed accurate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「正確な」について話し合いました。",
     "day": 3
   },
   {
@@ -1770,9 +1770,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "adapt",
-    "point": "adapt はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: adapt.",
-    "exampleJa": "この表現はTOEICで重要です：適応する、調整する。",
+    "point": "adapt = 適応する、調整する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed adapt during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「適応する、調整する」について話し合いました。",
     "day": 3
   },
   {
@@ -1782,9 +1782,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "additional",
-    "point": "additional = 追加の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"additional\" appears in a TOEIC-style context.",
-    "exampleJa": "「additional」はTOEICの文脈で出る語です。",
+    "point": "additional = 追加の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed additional during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「追加の」について話し合いました。",
     "day": 3
   },
   {
@@ -1794,9 +1794,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "adjacent",
-    "point": "adjacent = 隣接した。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"adjacent\" appears in a TOEIC-style context.",
-    "exampleJa": "「adjacent」はTOEICの文脈で出る語です。",
+    "point": "adjacent = 隣接した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed adjacent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「隣接した」について話し合いました。",
     "day": 3
   },
   {
@@ -1806,9 +1806,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "annual",
-    "point": "annual はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: annual.",
-    "exampleJa": "この表現はTOEICで重要です：年1回の、毎年の。",
+    "point": "annual = 年1回の、毎年の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed annual during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「年1回の、毎年の」について話し合いました。",
     "day": 3
   },
   {
@@ -1818,9 +1818,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "anticipate",
-    "point": "anticipate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: anticipate.",
-    "exampleJa": "この表現はTOEICで重要です：予想する。",
+    "point": "anticipate = 予想する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed anticipate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「予想する」について話し合いました。",
     "day": 3
   },
   {
@@ -1829,10 +1829,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "applicable",
-    "point": "applicable はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: applicable.",
-    "exampleJa": "この表現はTOEICで重要です：適用可能な。",
+    "phrase": "applicable regulations",
+    "point": "applicable = 適用可能な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Please follow all applicable safety regulations.",
+    "exampleJa": "適用されるすべての安全規則に従ってください。",
     "day": 3
   },
   {
@@ -1842,9 +1842,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "applicants",
-    "point": "applicants はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: applicants.",
-    "exampleJa": "この表現はTOEICで重要です：応募者。",
+    "point": "applicants = 応募者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed applicants during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「応募者」について話し合いました。",
     "day": 3
   },
   {
@@ -1854,9 +1854,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "appreciation",
-    "point": "appreciation = 感謝、評価。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"appreciation\" appears in a TOEIC-style context.",
-    "exampleJa": "「appreciation」はTOEICの文脈で出る語です。",
+    "point": "appreciation = 感謝、評価。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about appreciation.",
+    "exampleJa": "その報告書には「感謝、評価」に関する情報が含まれています。",
     "day": 3
   },
   {
@@ -1865,10 +1865,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "appropriate",
-    "point": "appropriate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: appropriate.",
-    "exampleJa": "この表現はTOEICで重要です：適切な。",
+    "phrase": "appropriate clothing",
+    "point": "appropriate = 適切な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Please wear appropriate clothing for the factory tour.",
+    "exampleJa": "工場見学には適切な服装をしてください。",
     "day": 3
   },
   {
@@ -1877,10 +1877,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "approximately",
-    "point": "approximately はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: approximately.",
-    "exampleJa": "この表現はTOEICで重要です：およそ。",
+    "phrase": "approximately two hours",
+    "point": "approximately = およそ。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The workshop will last approximately two hours.",
+    "exampleJa": "そのワークショップはおよそ2時間続きます。",
     "day": 3
   },
   {
@@ -1890,9 +1890,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "assessment",
-    "point": "assessment はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: assessment.",
-    "exampleJa": "この表現はTOEICで重要です：評価。",
+    "point": "assessment = 評価。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about assessment.",
+    "exampleJa": "その報告書には「評価」に関する情報が含まれています。",
     "day": 3
   },
   {
@@ -1902,9 +1902,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "assigned",
-    "point": "assigned はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: assigned.",
-    "exampleJa": "この表現はTOEICで重要です：割り当てられた。",
+    "point": "assigned = 割り当てられた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was assigned after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「割り当てられた」状態になりました。",
     "day": 3
   },
   {
@@ -1914,9 +1914,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "associated",
-    "point": "associated はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: associated.",
-    "exampleJa": "この表現はTOEICで重要です：関連した。",
+    "point": "associated = 関連した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was associated after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「関連した」状態になりました。",
     "day": 3
   },
   {
@@ -1926,9 +1926,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "assure",
-    "point": "assure = 保証する、安心させる。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"assure\" appears in a TOEIC-style context.",
-    "exampleJa": "「assure」はTOEICの文脈で出る語です。",
+    "point": "assure = 保証する、安心させる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed assure during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「保証する、安心させる」について話し合いました。",
     "day": 3
   },
   {
@@ -1937,10 +1937,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "available",
-    "point": "available = 利用可能な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"available\" appears in a TOEIC-style context.",
-    "exampleJa": "「available」はTOEICの文脈で出る語です。",
+    "phrase": "be available",
+    "point": "available = 利用可能な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The meeting room is available after 3 p.m.",
+    "exampleJa": "会議室は午後3時以降利用可能です。",
     "day": 3
   },
   {
@@ -1950,9 +1950,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "brochures",
-    "point": "brochures はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: brochures.",
-    "exampleJa": "この表現はTOEICで重要です：パンフレット。",
+    "point": "brochures = パンフレット。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed brochures during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「パンフレット」について話し合いました。",
     "day": 3
   },
   {
@@ -1962,9 +1962,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "campaign",
-    "point": "campaign はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: campaign.",
-    "exampleJa": "この表現はTOEICで重要です：キャンペーン。",
+    "point": "campaign = キャンペーン。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed campaign during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「キャンペーン」について話し合いました。",
     "day": 3
   },
   {
@@ -1974,9 +1974,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "candidate",
-    "point": "candidate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: candidate.",
-    "exampleJa": "この表現はTOEICで重要です：候補者。",
+    "point": "candidate = 候補者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed candidate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「候補者」について話し合いました。",
     "day": 3
   },
   {
@@ -1986,9 +1986,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "collaborate",
-    "point": "collaborate = 協力する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"collaborate\" appears in a TOEIC-style context.",
-    "exampleJa": "「collaborate」はTOEICの文脈で出る語です。",
+    "point": "collaborate = 協力する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed collaborate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「協力する」について話し合いました。",
     "day": 3
   },
   {
@@ -1998,9 +1998,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "collaboration",
-    "point": "collaboration = 協力。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"collaboration\" appears in a TOEIC-style context.",
-    "exampleJa": "「collaboration」はTOEICの文脈で出る語です。",
+    "point": "collaboration = 協力。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about collaboration.",
+    "exampleJa": "その報告書には「協力」に関する情報が含まれています。",
     "day": 3
   },
   {
@@ -2010,9 +2010,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "competitive",
-    "point": "competitive はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: competitive.",
-    "exampleJa": "この表現はTOEICで重要です：競争力のある。",
+    "point": "competitive = 競争力のある。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed competitive during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「競争力のある」について話し合いました。",
     "day": 3
   },
   {
@@ -2022,9 +2022,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "conflict",
-    "point": "conflict はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: conflict.",
-    "exampleJa": "この表現はTOEICで重要です：衝突、都合の重なり。",
+    "point": "conflict = 衝突、都合の重なり。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed conflict during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「衝突、都合の重なり」について話し合いました。",
     "day": 3
   },
   {
@@ -2034,9 +2034,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "consent",
-    "point": "consent = 同意。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"consent\" appears in a TOEIC-style context.",
-    "exampleJa": "「consent」はTOEICの文脈で出る語です。",
+    "point": "consent = 同意。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed consent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「同意」について話し合いました。",
     "day": 3
   },
   {
@@ -2046,9 +2046,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "consistent",
-    "point": "consistent はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: consistent.",
-    "exampleJa": "この表現はTOEICで重要です：一貫した。",
+    "point": "consistent = 一貫した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed consistent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「一貫した」について話し合いました。",
     "day": 3
   },
   {
@@ -2058,9 +2058,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "consistently",
-    "point": "consistently はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: consistently.",
-    "exampleJa": "この表現はTOEICで重要です：一貫して。",
+    "point": "consistently = 一貫して。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded consistently to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「一貫して」対応しました。",
     "day": 4
   },
   {
@@ -2070,9 +2070,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "constraint",
-    "point": "constraint = 制約。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"constraint\" appears in a TOEIC-style context.",
-    "exampleJa": "「constraint」はTOEICの文脈で出る語です。",
+    "point": "constraint = 制約。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed constraint during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「制約」について話し合いました。",
     "day": 4
   },
   {
@@ -2082,9 +2082,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "contribute",
-    "point": "contribute はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: contribute.",
-    "exampleJa": "この表現はTOEICで重要です：貢献する。",
+    "point": "contribute = 貢献する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed contribute during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「貢献する」について話し合いました。",
     "day": 4
   },
   {
@@ -2094,9 +2094,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "convenient",
-    "point": "convenient = 便利な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"convenient\" appears in a TOEIC-style context.",
-    "exampleJa": "「convenient」はTOEICの文脈で出る語です。",
+    "point": "convenient = 便利な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed convenient during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「便利な」について話し合いました。",
     "day": 4
   },
   {
@@ -2106,9 +2106,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "critical",
-    "point": "critical はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: critical.",
-    "exampleJa": "この表現はTOEICで重要です：重要な、批判的な。",
+    "point": "critical = 重要な、批判的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed critical during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「重要な、批判的な」について話し合いました。",
     "day": 4
   },
   {
@@ -2118,9 +2118,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "crucial",
-    "point": "crucial はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: crucial.",
-    "exampleJa": "この表現はTOEICで重要です：極めて重要な。",
+    "point": "crucial = 極めて重要な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed crucial during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「極めて重要な」について話し合いました。",
     "day": 4
   },
   {
@@ -2130,9 +2130,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "decline",
-    "point": "decline はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: decline.",
-    "exampleJa": "この表現はTOEICで重要です：減少する、断る。",
+    "point": "decline = 減少する、断る。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed decline during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「減少する、断る」について話し合いました。",
     "day": 4
   },
   {
@@ -2142,9 +2142,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "dedicated",
-    "point": "dedicated = 専用の、献身的な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"dedicated\" appears in a TOEIC-style context.",
-    "exampleJa": "「dedicated」はTOEICの文脈で出る語です。",
+    "point": "dedicated = 専用の、献身的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was dedicated after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「専用の、献身的な」状態になりました。",
     "day": 4
   },
   {
@@ -2154,9 +2154,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "deduct",
-    "point": "deduct = 差し引く。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"deduct\" appears in a TOEIC-style context.",
-    "exampleJa": "「deduct」はTOEICの文脈で出る語です。",
+    "point": "deduct = 差し引く。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed deduct during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「差し引く」について話し合いました。",
     "day": 4
   },
   {
@@ -2166,9 +2166,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "deduction",
-    "point": "deduction = 控除。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"deduction\" appears in a TOEIC-style context.",
-    "exampleJa": "「deduction」はTOEICの文脈で出る語です。",
+    "point": "deduction = 控除。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about deduction.",
+    "exampleJa": "その報告書には「控除」に関する情報が含まれています。",
     "day": 4
   },
   {
@@ -2178,9 +2178,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "defects",
-    "point": "defects はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: defects.",
-    "exampleJa": "この表現はTOEICで重要です：欠陥。",
+    "point": "defects = 欠陥。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed defects during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「欠陥」について話し合いました。",
     "day": 4
   },
   {
@@ -2190,9 +2190,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "delayed",
-    "point": "delayed = 遅れた。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"delayed\" appears in a TOEIC-style context.",
-    "exampleJa": "「delayed」はTOEICの文脈で出る語です。",
+    "point": "delayed = 遅れた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was delayed after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「遅れた」状態になりました。",
     "day": 4
   },
   {
@@ -2202,9 +2202,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "demand",
-    "point": "demand はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: demand.",
-    "exampleJa": "この表現はTOEICで重要です：需要、要求する。",
+    "point": "demand = 需要、要求する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed demand during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「需要、要求する」について話し合いました。",
     "day": 4
   },
   {
@@ -2214,9 +2214,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "detect",
-    "point": "detect はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: detect.",
-    "exampleJa": "この表現はTOEICで重要です：検出する、発見する。",
+    "point": "detect = 検出する、発見する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed detect during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「検出する、発見する」について話し合いました。",
     "day": 4
   },
   {
@@ -2226,9 +2226,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "determine",
-    "point": "determine = 決定する、判断する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"determine\" appears in a TOEIC-style context.",
-    "exampleJa": "「determine」はTOEICの文脈で出る語です。",
+    "point": "determine = 決定する、判断する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed determine during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「決定する、判断する」について話し合いました。",
     "day": 4
   },
   {
@@ -2238,9 +2238,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "due",
-    "point": "due はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: due.",
-    "exampleJa": "この表現はTOEICで重要です：期限の、予定の、〜のため。",
+    "point": "due = 期限の、予定の、〜のため。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed due during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「期限の、予定の、〜のため」について話し合いました。",
     "day": 4
   },
   {
@@ -2250,9 +2250,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "effectively",
-    "point": "effectively はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: effectively.",
-    "exampleJa": "この表現はTOEICで重要です：効果的に。",
+    "point": "effectively = 効果的に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded effectively to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「効果的に」対応しました。",
     "day": 4
   },
   {
@@ -2262,9 +2262,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "effectiveness",
-    "point": "effectiveness はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: effectiveness.",
-    "exampleJa": "この表現はTOEICで重要です：有効性。",
+    "point": "effectiveness = 有効性。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about effectiveness.",
+    "exampleJa": "その報告書には「有効性」に関する情報が含まれています。",
     "day": 4
   },
   {
@@ -2274,9 +2274,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "efficient",
-    "point": "efficient はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: efficient.",
-    "exampleJa": "この表現はTOEICで重要です：効率的な。",
+    "point": "efficient = 効率的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed efficient during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「効率的な」について話し合いました。",
     "day": 4
   },
   {
@@ -2286,9 +2286,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "efficiently",
-    "point": "efficiently はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: efficiently.",
-    "exampleJa": "この表現はTOEICで重要です：効率的に。",
+    "point": "efficiently = 効率的に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded efficiently to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「効率的に」対応しました。",
     "day": 4
   },
   {
@@ -2298,9 +2298,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "electronically",
-    "point": "electronically はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: electronically.",
-    "exampleJa": "この表現はTOEICで重要です：電子的に。",
+    "point": "electronically = 電子的に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded electronically to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「電子的に」対応しました。",
     "day": 4
   },
   {
@@ -2310,9 +2310,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "emphasize",
-    "point": "emphasize はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: emphasize.",
-    "exampleJa": "この表現はTOEICで重要です：強調する。",
+    "point": "emphasize = 強調する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed emphasize during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「強調する」について話し合いました。",
     "day": 4
   },
   {
@@ -2322,9 +2322,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "enclosed",
-    "point": "enclosed はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: enclosed.",
-    "exampleJa": "この表現はTOEICで重要です：同封された。",
+    "point": "enclosed = 同封された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was enclosed after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「同封された」状態になりました。",
     "day": 4
   },
   {
@@ -2334,9 +2334,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "entitled",
-    "point": "entitled はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: entitled.",
-    "exampleJa": "この表現はTOEICで重要です：権利がある、題された。",
+    "point": "entitled = 権利がある、題された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was entitled after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「権利がある、題された」状態になりました。",
     "day": 4
   },
   {
@@ -2346,9 +2346,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "essential",
-    "point": "essential はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: essential.",
-    "exampleJa": "この表現はTOEICで重要です：不可欠な。",
+    "point": "essential = 不可欠な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed essential during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「不可欠な」について話し合いました。",
     "day": 4
   },
   {
@@ -2358,9 +2358,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "evaluate",
-    "point": "evaluate = 評価する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"evaluate\" appears in a TOEIC-style context.",
-    "exampleJa": "「evaluate」はTOEICの文脈で出る語です。",
+    "point": "evaluate = 評価する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed evaluate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「評価する」について話し合いました。",
     "day": 4
   },
   {
@@ -2370,9 +2370,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "evaluated",
-    "point": "evaluated はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: evaluated.",
-    "exampleJa": "この表現はTOEICで重要です：評価された。",
+    "point": "evaluated = 評価された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was evaluated after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「評価された」状態になりました。",
     "day": 4
   },
   {
@@ -2382,9 +2382,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "exceed",
-    "point": "exceed はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: exceed.",
-    "exampleJa": "この表現はTOEICで重要です：超える。",
+    "point": "exceed = 超える。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was exceed after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「超える」状態になりました。",
     "day": 4
   },
   {
@@ -2394,9 +2394,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "expansion",
-    "point": "expansion はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: expansion.",
-    "exampleJa": "この表現はTOEICで重要です：拡大。",
+    "point": "expansion = 拡大。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed expansion during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「拡大」について話し合いました。",
     "day": 4
   },
   {
@@ -2406,9 +2406,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "experienced",
-    "point": "experienced = 経験豊富な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"experienced\" appears in a TOEIC-style context.",
-    "exampleJa": "「experienced」はTOEICの文脈で出る語です。",
+    "point": "experienced = 経験豊富な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was experienced after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「経験豊富な」状態になりました。",
     "day": 4
   },
   {
@@ -2418,9 +2418,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "extend",
-    "point": "extend はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: extend.",
-    "exampleJa": "この表現はTOEICで重要です：延長する、拡張する。",
+    "point": "extend = 延長する、拡張する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed extend during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「延長する、拡張する」について話し合いました。",
     "day": 4
   },
   {
@@ -2430,9 +2430,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "extensive",
-    "point": "extensive はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: extensive.",
-    "exampleJa": "この表現はTOEICで重要です：広範な、豊富な。",
+    "point": "extensive = 広範な、豊富な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed extensive during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「広範な、豊富な」について話し合いました。",
     "day": 4
   },
   {
@@ -2442,9 +2442,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "facilitate",
-    "point": "facilitate = 促進する、容易にする。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"facilitate\" appears in a TOEIC-style context.",
-    "exampleJa": "「facilitate」はTOEICの文脈で出る語です。",
+    "point": "facilitate = 促進する、容易にする。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed facilitate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「促進する、容易にする」について話し合いました。",
     "day": 4
   },
   {
@@ -2454,9 +2454,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "feasible",
-    "point": "feasible = 実行可能な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"feasible\" appears in a TOEIC-style context.",
-    "exampleJa": "「feasible」はTOEICの文脈で出る語です。",
+    "point": "feasible = 実行可能な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed feasible during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「実行可能な」について話し合いました。",
     "day": 4
   },
   {
@@ -2466,9 +2466,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "identification badge",
-    "point": "identification badge はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: identification badge.",
-    "exampleJa": "この表現はTOEICで重要です：身分証バッジ。",
+    "point": "identification badge = 身分証バッジ。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed identification badge during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「身分証バッジ」について話し合いました。",
     "day": 4
   },
   {
@@ -2478,9 +2478,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "immediate",
-    "point": "immediate = 即時の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"immediate\" appears in a TOEIC-style context.",
-    "exampleJa": "「immediate」はTOEICの文脈で出る語です。",
+    "point": "immediate = 即時の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed immediate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「即時の」について話し合いました。",
     "day": 4
   },
   {
@@ -2490,9 +2490,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "implementing",
-    "point": "implementing はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: implementing.",
-    "exampleJa": "この表現はTOEICで重要です：実施している。",
+    "point": "implementing = 実施している。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed implementing during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「実施している」について話し合いました。",
     "day": 4
   },
   {
@@ -2501,10 +2501,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "inconvenience",
-    "point": "inconvenience はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: inconvenience.",
-    "exampleJa": "この表現はTOEICで重要です：不便。",
+    "phrase": "apologize for the inconvenience",
+    "point": "inconvenience = 不便。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "We apologize for the inconvenience caused by the renovation.",
+    "exampleJa": "改装によるご不便をお詫びします。",
     "day": 4
   },
   {
@@ -2514,9 +2514,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "increasingly",
-    "point": "increasingly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: increasingly.",
-    "exampleJa": "この表現はTOEICで重要です：ますます。",
+    "point": "increasingly = ますます。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded increasingly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「ますます」対応しました。",
     "day": 4
   },
   {
@@ -2526,9 +2526,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "indicate",
-    "point": "indicate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: indicate.",
-    "exampleJa": "この表現はTOEICで重要です：示す。",
+    "point": "indicate = 示す。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed indicate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「示す」について話し合いました。",
     "day": 4
   },
   {
@@ -2538,9 +2538,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "indicates",
-    "point": "indicates はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: indicates.",
-    "exampleJa": "この表現はTOEICで重要です：示す。",
+    "point": "indicates = 示す。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed indicates during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「示す」について話し合いました。",
     "day": 4
   },
   {
@@ -2550,9 +2550,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "inspect",
-    "point": "inspect はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: inspect.",
-    "exampleJa": "この表現はTOEICで重要です：検査する。",
+    "point": "inspect = 検査する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed inspect during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「検査する」について話し合いました。",
     "day": 4
   },
   {
@@ -2562,9 +2562,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "instruction",
-    "point": "instruction はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: instruction.",
-    "exampleJa": "この表現はTOEICで重要です：指示、説明。",
+    "point": "instruction = 指示、説明。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about instruction.",
+    "exampleJa": "その報告書には「指示、説明」に関する情報が含まれています。",
     "day": 4
   },
   {
@@ -2574,9 +2574,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "launched",
-    "point": "launched はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: launched.",
-    "exampleJa": "この表現はTOEICで重要です：開始した、発売した。",
+    "point": "launched = 開始した、発売した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was launched after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「開始した、発売した」状態になりました。",
     "day": 4
   },
   {
@@ -2586,9 +2586,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "limited",
-    "point": "limited = 限られた。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"limited\" appears in a TOEIC-style context.",
-    "exampleJa": "「limited」はTOEICの文脈で出る語です。",
+    "point": "limited = 限られた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was limited after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「限られた」状態になりました。",
     "day": 4
   },
   {
@@ -2598,9 +2598,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "miscellaneous",
-    "point": "miscellaneous はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: miscellaneous.",
-    "exampleJa": "この表現はTOEICで重要です：雑多な。",
+    "point": "miscellaneous = 雑多な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed miscellaneous during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「雑多な」について話し合いました。",
     "day": 4
   },
   {
@@ -2610,9 +2610,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "modified",
-    "point": "modified はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: modified.",
-    "exampleJa": "この表現はTOEICで重要です：変更された。",
+    "point": "modified = 変更された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was modified after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「変更された」状態になりました。",
     "day": 4
   },
   {
@@ -2622,9 +2622,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "nearby",
-    "point": "nearby = 近くの、近くに。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"nearby\" appears in a TOEIC-style context.",
-    "exampleJa": "「nearby」はTOEICの文脈で出る語です。",
+    "point": "nearby = 近くの、近くに。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed nearby during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「近くの、近くに」について話し合いました。",
     "day": 4
   },
   {
@@ -2634,9 +2634,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "notify",
-    "point": "notify はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: notify.",
-    "exampleJa": "この表現はTOEICで重要です：知らせる。",
+    "point": "notify = 知らせる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed notify during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「知らせる」について話し合いました。",
     "day": 4
   },
   {
@@ -2646,9 +2646,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "numerous",
-    "point": "numerous はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: numerous.",
-    "exampleJa": "この表現はTOEICで重要です：多数の。",
+    "point": "numerous = 多数の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed numerous during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「多数の」について話し合いました。",
     "day": 4
   },
   {
@@ -2658,9 +2658,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "overall",
-    "point": "overall はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: overall.",
-    "exampleJa": "この表現はTOEICで重要です：全体的な。",
+    "point": "overall = 全体的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed overall during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「全体的な」について話し合いました。",
     "day": 4
   },
   {
@@ -2670,9 +2670,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "partial",
-    "point": "partial はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: partial.",
-    "exampleJa": "この表現はTOEICで重要です：部分的な。",
+    "point": "partial = 部分的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed partial during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「部分的な」について話し合いました。",
     "day": 4
   },
   {
@@ -2681,10 +2681,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "participate",
-    "point": "participate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: participate.",
-    "exampleJa": "この表現はTOEICで重要です：参加する。",
+    "phrase": "participate in",
+    "point": "participate = 参加する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Employees are encouraged to participate in the safety seminar.",
+    "exampleJa": "従業員は安全セミナーへの参加を奨励されています。",
     "day": 4
   },
   {
@@ -2693,10 +2693,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "postponed",
-    "point": "postponed はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: postponed.",
-    "exampleJa": "この表現はTOEICで重要です：延期された。",
+    "phrase": "was postponed",
+    "point": "postponed = 延期された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The meeting was postponed because of a scheduling conflict.",
+    "exampleJa": "予定の重複により会議は延期されました。",
     "day": 4
   },
   {
@@ -2706,9 +2706,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "practical",
-    "point": "practical はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: practical.",
-    "exampleJa": "この表現はTOEICで重要です：実用的な。",
+    "point": "practical = 実用的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed practical during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「実用的な」について話し合いました。",
     "day": 4
   },
   {
@@ -2718,9 +2718,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "priority",
-    "point": "priority はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: priority.",
-    "exampleJa": "この表現はTOEICで重要です：優先事項。",
+    "point": "priority = 優先事項。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about priority.",
+    "exampleJa": "その報告書には「優先事項」に関する情報が含まれています。",
     "day": 4
   },
   {
@@ -2730,9 +2730,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "profitable",
-    "point": "profitable はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: profitable.",
-    "exampleJa": "この表現はTOEICで重要です：利益の出る。",
+    "point": "profitable = 利益の出る。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed profitable during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「利益の出る」について話し合いました。",
     "day": 4
   },
   {
@@ -2742,9 +2742,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "prohibited",
-    "point": "prohibited はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: prohibited.",
-    "exampleJa": "この表現はTOEICで重要です：禁止された。",
+    "point": "prohibited = 禁止された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was prohibited after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「禁止された」状態になりました。",
     "day": 5
   },
   {
@@ -2753,10 +2753,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "prompt",
-    "point": "prompt はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: prompt.",
-    "exampleJa": "この表現はTOEICで重要です：迅速な、促す。",
+    "phrase": "prompt response",
+    "point": "prompt = 迅速な、促す。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Thank you for your prompt response to our inquiry.",
+    "exampleJa": "お問い合わせへの迅速なご返信ありがとうございます。",
     "day": 5
   },
   {
@@ -2766,9 +2766,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "promptly",
-    "point": "promptly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: promptly.",
-    "exampleJa": "この表現はTOEICで重要です：迅速に。",
+    "point": "promptly = 迅速に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded promptly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「迅速に」対応しました。",
     "day": 5
   },
   {
@@ -2778,9 +2778,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "properly",
-    "point": "properly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: properly.",
-    "exampleJa": "この表現はTOEICで重要です：適切に。",
+    "point": "properly = 適切に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded properly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「適切に」対応しました。",
     "day": 5
   },
   {
@@ -2790,9 +2790,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "prospective",
-    "point": "prospective = 見込みの、将来の。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"prospective\" appears in a TOEIC-style context.",
-    "exampleJa": "「prospective」はTOEICの文脈で出る語です。",
+    "point": "prospective = 見込みの、将来の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed prospective during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「見込みの、将来の」について話し合いました。",
     "day": 5
   },
   {
@@ -2801,10 +2801,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "provide",
-    "point": "provide はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: provide.",
-    "exampleJa": "この表現はTOEICで重要です：提供する。",
+    "phrase": "provide service",
+    "point": "provide = 提供する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The hotel provides complimentary shuttle service to the airport.",
+    "exampleJa": "そのホテルは空港への無料シャトルサービスを提供しています。",
     "day": 5
   },
   {
@@ -2813,10 +2813,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "purchase",
-    "point": "purchase はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: purchase.",
-    "exampleJa": "この表現はTOEICで重要です：購入する、購入。",
+    "phrase": "purchase tickets",
+    "point": "purchase = 購入する、購入。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Customers can purchase tickets online in advance.",
+    "exampleJa": "顧客は事前にオンラインでチケットを購入できます。",
     "day": 5
   },
   {
@@ -2825,10 +2825,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "qualified",
-    "point": "qualified = 資格のある。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"qualified\" appears in a TOEIC-style context.",
-    "exampleJa": "「qualified」はTOEICの文脈で出る語です。",
+    "phrase": "qualified technician",
+    "point": "qualified = 資格のある。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company is seeking a qualified technician.",
+    "exampleJa": "その会社は有資格の技術者を募集しています。",
     "day": 5
   },
   {
@@ -2838,9 +2838,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "quarter",
-    "point": "quarter はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: quarter.",
-    "exampleJa": "この表現はTOEICで重要です：四半期、4分の1。",
+    "point": "quarter = 四半期、4分の1。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed quarter during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「四半期、4分の1」について話し合いました。",
     "day": 5
   },
   {
@@ -2850,9 +2850,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "reasonable",
-    "point": "reasonable = 妥当な、手頃な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"reasonable\" appears in a TOEIC-style context.",
-    "exampleJa": "「reasonable」はTOEICの文脈で出る語です。",
+    "point": "reasonable = 妥当な、手頃な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed reasonable during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「妥当な、手頃な」について話し合いました。",
     "day": 5
   },
   {
@@ -2862,9 +2862,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "receive",
-    "point": "receive はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: receive.",
-    "exampleJa": "この表現はTOEICで重要です：受け取る。",
+    "point": "receive = 受け取る。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed receive during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「受け取る」について話し合いました。",
     "day": 5
   },
   {
@@ -2874,9 +2874,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "receive complaints",
-    "point": "receive complaints はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: receive complaints.",
-    "exampleJa": "この表現はTOEICで重要です：苦情を受ける。",
+    "point": "receive complaints = 苦情を受ける。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed receive complaints during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「苦情を受ける」について話し合いました。",
     "day": 5
   },
   {
@@ -2886,9 +2886,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "relocated",
-    "point": "relocated はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: relocated.",
-    "exampleJa": "この表現はTOEICで重要です：移転した。",
+    "point": "relocated = 移転した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was relocated after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「移転した」状態になりました。",
     "day": 5
   },
   {
@@ -2898,9 +2898,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "required",
-    "point": "required はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: required.",
-    "exampleJa": "この表現はTOEICで重要です：必要とされる。",
+    "point": "required = 必要とされる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was required after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「必要とされる」状態になりました。",
     "day": 5
   },
   {
@@ -2910,9 +2910,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "resolved",
-    "point": "resolved はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: resolved.",
-    "exampleJa": "この表現はTOEICで重要です：解決された。",
+    "point": "resolved = 解決された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was resolved after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「解決された」状態になりました。",
     "day": 5
   },
   {
@@ -2921,10 +2921,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "restricted",
-    "point": "restricted はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: restricted.",
-    "exampleJa": "この表現はTOEICで重要です：制限された。",
+    "phrase": "restricted area",
+    "point": "restricted = 制限された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Visitors are not allowed to enter the restricted area.",
+    "exampleJa": "訪問者は立入制限区域に入ることはできません。",
     "day": 5
   },
   {
@@ -2934,9 +2934,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "retain",
-    "point": "retain = 保持する、維持する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"retain\" appears in a TOEIC-style context.",
-    "exampleJa": "「retain」はTOEICの文脈で出る語です。",
+    "point": "retain = 保持する、維持する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed retain during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「保持する、維持する」について話し合いました。",
     "day": 5
   },
   {
@@ -2946,9 +2946,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "retention",
-    "point": "retention = 保持、維持。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"retention\" appears in a TOEIC-style context.",
-    "exampleJa": "「retention」はTOEICの文脈で出る語です。",
+    "point": "retention = 保持、維持。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about retention.",
+    "exampleJa": "その報告書には「保持、維持」に関する情報が含まれています。",
     "day": 5
   },
   {
@@ -2958,9 +2958,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "routine",
-    "point": "routine はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: routine.",
-    "exampleJa": "この表現はTOEICで重要です：日常的な、手順。",
+    "point": "routine = 日常的な、手順。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed routine during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「日常的な、手順」について話し合いました。",
     "day": 5
   },
   {
@@ -2970,9 +2970,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "securely",
-    "point": "securely はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: securely.",
-    "exampleJa": "この表現はTOEICで重要です：安全に。",
+    "point": "securely = 安全に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded securely to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「安全に」対応しました。",
     "day": 5
   },
   {
@@ -2981,10 +2981,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "shortage",
-    "point": "shortage はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: shortage.",
-    "exampleJa": "この表現はTOEICで重要です：不足。",
+    "phrase": "a shortage of materials",
+    "point": "shortage = 不足。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Production was delayed because of a shortage of materials.",
+    "exampleJa": "材料不足のため生産が遅れました。",
     "day": 5
   },
   {
@@ -2994,9 +2994,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "steadily",
-    "point": "steadily はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: steadily.",
-    "exampleJa": "この表現はTOEICで重要です：着実に。",
+    "point": "steadily = 着実に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded steadily to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「着実に」対応しました。",
     "day": 5
   },
   {
@@ -3006,9 +3006,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "strategies",
-    "point": "strategies はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: strategies.",
-    "exampleJa": "この表現はTOEICで重要です：戦略。",
+    "point": "strategies = 戦略。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed strategies during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「戦略」について話し合いました。",
     "day": 5
   },
   {
@@ -3018,9 +3018,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "streamline",
-    "point": "streamline = 効率化する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"streamline\" appears in a TOEIC-style context.",
-    "exampleJa": "「streamline」はTOEICの文脈で出る語です。",
+    "point": "streamline = 効率化する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed streamline during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「効率化する」について話し合いました。",
     "day": 5
   },
   {
@@ -3030,9 +3030,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "strictly",
-    "point": "strictly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: strictly.",
-    "exampleJa": "この表現はTOEICで重要です：厳密に。",
+    "point": "strictly = 厳密に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded strictly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「厳密に」対応しました。",
     "day": 5
   },
   {
@@ -3041,10 +3041,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "submit",
-    "point": "submit はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: submit.",
-    "exampleJa": "この表現はTOEICで重要です：提出する。",
+    "phrase": "submit an application",
+    "point": "submit = 提出する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "Please submit your application by the end of the week.",
+    "exampleJa": "週末までに申込書を提出してください。",
     "day": 5
   },
   {
@@ -3054,9 +3054,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "substantial",
-    "point": "substantial はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: substantial.",
-    "exampleJa": "この表現はTOEICで重要です：かなりの、実質的な。",
+    "point": "substantial = かなりの、実質的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed substantial during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「かなりの、実質的な」について話し合いました。",
     "day": 5
   },
   {
@@ -3066,9 +3066,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "sufficient",
-    "point": "sufficient はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: sufficient.",
-    "exampleJa": "この表現はTOEICで重要です：十分な。",
+    "point": "sufficient = 十分な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed sufficient during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「十分な」について話し合いました。",
     "day": 5
   },
   {
@@ -3078,9 +3078,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "suitable",
-    "point": "suitable = 適した。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"suitable\" appears in a TOEIC-style context.",
-    "exampleJa": "「suitable」はTOEICの文脈で出る語です。",
+    "point": "suitable = 適した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed suitable during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「適した」について話し合いました。",
     "day": 5
   },
   {
@@ -3090,9 +3090,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "supervise",
-    "point": "supervise はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: supervise.",
-    "exampleJa": "この表現はTOEICで重要です：監督する。",
+    "point": "supervise = 監督する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed supervise during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「監督する」について話し合いました。",
     "day": 5
   },
   {
@@ -3102,9 +3102,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "survey",
-    "point": "survey はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: survey.",
-    "exampleJa": "この表現はTOEICで重要です：調査。",
+    "point": "survey = 調査。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed survey during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「調査」について話し合いました。",
     "day": 5
   },
   {
@@ -3114,9 +3114,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "thoroughly",
-    "point": "thoroughly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: thoroughly.",
-    "exampleJa": "この表現はTOEICで重要です：徹底的に。",
+    "point": "thoroughly = 徹底的に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded thoroughly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「徹底的に」対応しました。",
     "day": 5
   },
   {
@@ -3126,9 +3126,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "understaffed",
-    "point": "understaffed はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: understaffed.",
-    "exampleJa": "この表現はTOEICで重要です：人手不足の。",
+    "point": "understaffed = 人手不足の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was understaffed after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「人手不足の」状態になりました。",
     "day": 5
   },
   {
@@ -3138,9 +3138,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "unforeseen",
-    "point": "unforeseen はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: unforeseen.",
-    "exampleJa": "この表現はTOEICで重要です：予期しない。",
+    "point": "unforeseen = 予期しない。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed unforeseen during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「予期しない」について話し合いました。",
     "day": 5
   },
   {
@@ -3150,9 +3150,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "valid",
-    "point": "valid = 有効な。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"valid\" appears in a TOEIC-style context.",
-    "exampleJa": "「valid」はTOEICの文脈で出る語です。",
+    "point": "valid = 有効な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed valid during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「有効な」について話し合いました。",
     "day": 5
   },
   {
@@ -3162,9 +3162,9 @@ const VOCAB = [
     "priority": 4,
     "star": false,
     "phrase": "validate",
-    "point": "validate = 有効性を確認する。Readingを300点台に上げるための追加730語。Part 5/7で前後の語とセットで覚える。",
-    "example": "The term \"validate\" appears in a TOEIC-style context.",
-    "exampleJa": "「validate」はTOEICの文脈で出る語です。",
+    "point": "validate = 有効性を確認する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed validate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「有効性を確認する」について話し合いました。",
     "day": 5
   },
   {
@@ -3173,10 +3173,10 @@ const VOCAB = [
     "category": "part5_7",
     "priority": 4,
     "star": false,
-    "phrase": "warranty",
-    "point": "warranty はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: warranty.",
-    "exampleJa": "この表現はTOEICで重要です：保証。",
+    "phrase": "a two-year warranty",
+    "point": "warranty = 保証。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The printer comes with a two-year warranty.",
+    "exampleJa": "そのプリンターには2年間の保証が付いています。",
     "day": 5
   },
   {
@@ -3186,9 +3186,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "applauding",
-    "point": "applauding はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows applauding.",
-    "exampleJa": "写真には「拍手している」が写っています。",
+    "point": "applauding = 拍手している。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is applauding near the work area.",
+    "exampleJa": "人が作業場所の近くで「拍手している」動作をしています。",
     "day": 5
   },
   {
@@ -3197,10 +3197,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "binoculars",
-    "point": "binoculars はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows binoculars.",
-    "exampleJa": "写真には「双眼鏡」が写っています。",
+    "phrase": "looking through binoculars",
+    "point": "binoculars = 双眼鏡。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A man is looking through binoculars.",
+    "exampleJa": "男性が双眼鏡をのぞいています。",
     "day": 5
   },
   {
@@ -3210,9 +3210,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "bookcase",
-    "point": "bookcase はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows bookcase.",
-    "exampleJa": "写真には「本棚」が写っています。",
+    "point": "bookcase = 本棚。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A bookcase can be seen in the picture.",
+    "exampleJa": "写真の中に「本棚」が見えます。",
     "day": 5
   },
   {
@@ -3222,9 +3222,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "bushes",
-    "point": "bushes はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows bushes.",
-    "exampleJa": "写真には「茂み」が写っています。",
+    "point": "bushes = 茂み。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several bushes are arranged near the wall.",
+    "exampleJa": "いくつかの「茂み」が壁の近くに並べられています。",
     "day": 5
   },
   {
@@ -3234,9 +3234,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "canopy",
-    "point": "canopy はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows canopy.",
-    "exampleJa": "写真には「天蓋、ひさし」が写っています。",
+    "point": "canopy = 天蓋、ひさし。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A canopy can be seen in the picture.",
+    "exampleJa": "写真の中に「天蓋、ひさし」が見えます。",
     "day": 5
   },
   {
@@ -3246,9 +3246,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "cupboard",
-    "point": "cupboard はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows cupboard.",
-    "exampleJa": "写真には「戸棚、食器棚」が写っています。",
+    "point": "cupboard = 戸棚、食器棚。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A cupboard can be seen in the picture.",
+    "exampleJa": "写真の中に「戸棚、食器棚」が見えます。",
     "day": 5
   },
   {
@@ -3257,10 +3257,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "dashboard",
-    "point": "dashboard はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows dashboard.",
-    "exampleJa": "写真には「ダッシュボード」が写っています。",
+    "phrase": "on the dashboard",
+    "point": "dashboard = ダッシュボード。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A navigation screen is displayed on the dashboard.",
+    "exampleJa": "ナビ画面がダッシュボードに表示されています。",
     "day": 5
   },
   {
@@ -3270,9 +3270,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "dead leaves",
-    "point": "dead leaves はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows dead leaves.",
-    "exampleJa": "写真には「枯れ葉」が写っています。",
+    "point": "dead leaves = 枯れ葉。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several dead leaves are arranged near the wall.",
+    "exampleJa": "いくつかの「枯れ葉」が壁の近くに並べられています。",
     "day": 5
   },
   {
@@ -3282,9 +3282,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "descending",
-    "point": "descending はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows descending.",
-    "exampleJa": "写真には「降りている」が写っています。",
+    "point": "descending = 降りている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is descending near the work area.",
+    "exampleJa": "人が作業場所の近くで「降りている」動作をしています。",
     "day": 5
   },
   {
@@ -3294,9 +3294,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "diners",
-    "point": "diners はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows diners.",
-    "exampleJa": "写真には「食事客」が写っています。",
+    "point": "diners = 食事客。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several diners are arranged near the wall.",
+    "exampleJa": "いくつかの「食事客」が壁の近くに並べられています。",
     "day": 5
   },
   {
@@ -3306,9 +3306,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "doorway",
-    "point": "doorway はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows doorway.",
-    "exampleJa": "写真には「出入口」が写っています。",
+    "point": "doorway = 出入口。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A doorway can be seen in the picture.",
+    "exampleJa": "写真の中に「出入口」が見えます。",
     "day": 5
   },
   {
@@ -3318,9 +3318,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "drawer",
-    "point": "drawer はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows drawer.",
-    "exampleJa": "写真には「引き出し」が写っています。",
+    "point": "drawer = 引き出し。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A drawer can be seen in the picture.",
+    "exampleJa": "写真の中に「引き出し」が見えます。",
     "day": 5
   },
   {
@@ -3330,9 +3330,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "driveway",
-    "point": "driveway はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows driveway.",
-    "exampleJa": "写真には「私道、車寄せ」が写っています。",
+    "point": "driveway = 私道、車寄せ。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A driveway can be seen in the picture.",
+    "exampleJa": "写真の中に「私道、車寄せ」が見えます。",
     "day": 5
   },
   {
@@ -3342,9 +3342,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "edge",
-    "point": "edge はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows edge.",
-    "exampleJa": "写真には「端」が写っています。",
+    "point": "edge = 端。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A edge can be seen in the picture.",
+    "exampleJa": "写真の中に「端」が見えます。",
     "day": 5
   },
   {
@@ -3354,9 +3354,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "examining",
-    "point": "examining はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows examining.",
-    "exampleJa": "写真には「調べている」が写っています。",
+    "point": "examining = 調べている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is examining near the work area.",
+    "exampleJa": "人が作業場所の近くで「調べている」動作をしています。",
     "day": 5
   },
   {
@@ -3366,9 +3366,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "facing",
-    "point": "facing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows facing.",
-    "exampleJa": "写真には「向いている」が写っています。",
+    "point": "facing = 向いている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is facing near the work area.",
+    "exampleJa": "人が作業場所の近くで「向いている」動作をしています。",
     "day": 5
   },
   {
@@ -3378,9 +3378,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "fastening",
-    "point": "fastening はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows fastening.",
-    "exampleJa": "写真には「締めている、固定している」が写っています。",
+    "point": "fastening = 締めている、固定している。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is fastening near the work area.",
+    "exampleJa": "人が作業場所の近くで「締めている、固定している」動作をしています。",
     "day": 5
   },
   {
@@ -3390,9 +3390,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "folding",
-    "point": "folding はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows folding.",
-    "exampleJa": "写真には「折りたたんでいる」が写っています。",
+    "point": "folding = 折りたたんでいる。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is folding near the work area.",
+    "exampleJa": "人が作業場所の近くで「折りたたんでいる」動作をしています。",
     "day": 5
   },
   {
@@ -3402,9 +3402,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "fountain",
-    "point": "fountain はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows fountain.",
-    "exampleJa": "写真には「噴水」が写っています。",
+    "point": "fountain = 噴水。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A fountain can be seen in the picture.",
+    "exampleJa": "写真の中に「噴水」が見えます。",
     "day": 5
   },
   {
@@ -3414,9 +3414,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "furnish",
-    "point": "furnish はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows furnish.",
-    "exampleJa": "写真には「家具を備え付ける」が写っています。",
+    "point": "furnish = 家具を備え付ける。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A furnish can be seen in the picture.",
+    "exampleJa": "写真の中に「家具を備え付ける」が見えます。",
     "day": 5
   },
   {
@@ -3426,9 +3426,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "furniture",
-    "point": "furniture はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows furniture.",
-    "exampleJa": "写真には「家具」が写っています。",
+    "point": "furniture = 家具。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A furniture can be seen in the picture.",
+    "exampleJa": "写真の中に「家具」が見えます。",
     "day": 6
   },
   {
@@ -3437,10 +3437,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "garbage cans",
-    "point": "garbage cans はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows garbage cans.",
-    "exampleJa": "写真には「ゴミ箱」が写っています。",
+    "phrase": "garbage cans are lined up",
+    "point": "garbage cans = ゴミ箱。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Garbage cans are lined up beside the building.",
+    "exampleJa": "ゴミ箱が建物の横に並んでいます。",
     "day": 6
   },
   {
@@ -3450,9 +3450,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "gazing",
-    "point": "gazing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows gazing.",
-    "exampleJa": "写真には「じっと見ている」が写っています。",
+    "point": "gazing = じっと見ている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is gazing near the work area.",
+    "exampleJa": "人が作業場所の近くで「じっと見ている」動作をしています。",
     "day": 6
   },
   {
@@ -3462,9 +3462,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "gloves",
-    "point": "gloves はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows gloves.",
-    "exampleJa": "写真には「手袋」が写っています。",
+    "point": "gloves = 手袋。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several gloves are arranged near the wall.",
+    "exampleJa": "いくつかの「手袋」が壁の近くに並べられています。",
     "day": 6
   },
   {
@@ -3474,9 +3474,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "greeting",
-    "point": "greeting はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows greeting.",
-    "exampleJa": "写真には「挨拶している」が写っています。",
+    "point": "greeting = 挨拶している。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is greeting near the work area.",
+    "exampleJa": "人が作業場所の近くで「挨拶している」動作をしています。",
     "day": 6
   },
   {
@@ -3486,9 +3486,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "hang",
-    "point": "hang はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows hang.",
-    "exampleJa": "写真には「掛かる、掛ける」が写っています。",
+    "point": "hang = 掛かる、掛ける。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A hang can be seen in the picture.",
+    "exampleJa": "写真の中に「掛かる、掛ける」が見えます。",
     "day": 6
   },
   {
@@ -3498,9 +3498,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "in the distance",
-    "point": "in the distance はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows in the distance.",
-    "exampleJa": "写真には「遠くに」が写っています。",
+    "point": "in the distance = 遠くに。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A in the distance can be seen in the picture.",
+    "exampleJa": "写真の中に「遠くに」が見えます。",
     "day": 6
   },
   {
@@ -3510,9 +3510,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "inspectors",
-    "point": "inspectors はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows inspectors.",
-    "exampleJa": "写真には「検査官」が写っています。",
+    "point": "inspectors = 検査官。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several inspectors are arranged near the wall.",
+    "exampleJa": "いくつかの「検査官」が壁の近くに並べられています。",
     "day": 6
   },
   {
@@ -3522,9 +3522,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "instruments",
-    "point": "instruments はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows instruments.",
-    "exampleJa": "写真には「楽器、器具」が写っています。",
+    "point": "instruments = 楽器、器具。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several instruments are arranged near the wall.",
+    "exampleJa": "いくつかの「楽器、器具」が壁の近くに並べられています。",
     "day": 6
   },
   {
@@ -3534,9 +3534,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "laid out",
-    "point": "laid out はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows laid out.",
-    "exampleJa": "写真には「配置された、広げられた」が写っています。",
+    "point": "laid out = 配置された、広げられた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A laid out can be seen in the picture.",
+    "exampleJa": "写真の中に「配置された、広げられた」が見えます。",
     "day": 6
   },
   {
@@ -3545,10 +3545,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "lamppost",
-    "point": "lamppost はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows lamppost.",
-    "exampleJa": "写真には「街灯柱」が写っています。",
+    "phrase": "near a lamppost",
+    "point": "lamppost = 街灯柱。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A bicycle is parked near a lamppost.",
+    "exampleJa": "自転車が街灯柱の近くに停められています。",
     "day": 6
   },
   {
@@ -3558,9 +3558,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "lining",
-    "point": "lining はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows lining.",
-    "exampleJa": "写真には「並んでいる、裏地」が写っています。",
+    "point": "lining = 並んでいる、裏地。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is lining near the work area.",
+    "exampleJa": "人が作業場所の近くで「並んでいる、裏地」動作をしています。",
     "day": 6
   },
   {
@@ -3570,9 +3570,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "loaded",
-    "point": "loaded はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows loaded.",
-    "exampleJa": "写真には「積まれた、荷を載せた」が写っています。",
+    "point": "loaded = 積まれた、荷を載せた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A loaded can be seen in the picture.",
+    "exampleJa": "写真の中に「積まれた、荷を載せた」が見えます。",
     "day": 6
   },
   {
@@ -3582,9 +3582,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "long-sleeved",
-    "point": "long-sleeved はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows long-sleeved.",
-    "exampleJa": "写真には「長袖の」が写っています。",
+    "point": "long-sleeved = 長袖の。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A long-sleeved can be seen in the picture.",
+    "exampleJa": "写真の中に「長袖の」が見えます。",
     "day": 6
   },
   {
@@ -3594,9 +3594,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "merchandise",
-    "point": "merchandise はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows merchandise.",
-    "exampleJa": "写真には「商品」が写っています。",
+    "point": "merchandise = 商品。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A merchandise can be seen in the picture.",
+    "exampleJa": "写真の中に「商品」が見えます。",
     "day": 6
   },
   {
@@ -3605,10 +3605,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "microwave",
-    "point": "microwave はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows microwave.",
-    "exampleJa": "写真には「電子レンジ」が写っています。",
+    "phrase": "a microwave on the counter",
+    "point": "microwave = 電子レンジ。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A microwave is placed on the kitchen counter.",
+    "exampleJa": "電子レンジがキッチンカウンターに置かれています。",
     "day": 6
   },
   {
@@ -3618,9 +3618,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "paging through",
-    "point": "paging through はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows paging through.",
-    "exampleJa": "写真には「ページをめくっている」が写っています。",
+    "point": "paging through = ページをめくっている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A paging through can be seen in the picture.",
+    "exampleJa": "写真の中に「ページをめくっている」が見えます。",
     "day": 6
   },
   {
@@ -3630,9 +3630,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "parcel",
-    "point": "parcel はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows parcel.",
-    "exampleJa": "写真には「小包」が写っています。",
+    "point": "parcel = 小包。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A parcel can be seen in the picture.",
+    "exampleJa": "写真の中に「小包」が見えます。",
     "day": 6
   },
   {
@@ -3642,9 +3642,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "path",
-    "point": "path はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows path.",
-    "exampleJa": "写真には「小道」が写っています。",
+    "point": "path = 小道。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A path can be seen in the picture.",
+    "exampleJa": "写真の中に「小道」が見えます。",
     "day": 6
   },
   {
@@ -3654,9 +3654,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "pier",
-    "point": "pier はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows pier.",
-    "exampleJa": "写真には「桟橋」が写っています。",
+    "point": "pier = 桟橋。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A pier can be seen in the picture.",
+    "exampleJa": "写真の中に「桟橋」が見えます。",
     "day": 6
   },
   {
@@ -3666,9 +3666,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "platform",
-    "point": "platform はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows platform.",
-    "exampleJa": "写真には「ホーム、台」が写っています。",
+    "point": "platform = ホーム、台。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A platform can be seen in the picture.",
+    "exampleJa": "写真の中に「ホーム、台」が見えます。",
     "day": 6
   },
   {
@@ -3677,10 +3677,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "pointing",
-    "point": "pointing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows pointing.",
-    "exampleJa": "写真には「指している」が写っています。",
+    "phrase": "pointing at",
+    "point": "pointing = 指している。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A woman is pointing at a chart.",
+    "exampleJa": "女性が図表を指さしています。",
     "day": 6
   },
   {
@@ -3690,9 +3690,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "posted",
-    "point": "posted はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows posted.",
-    "exampleJa": "写真には「掲示された」が写っています。",
+    "point": "posted = 掲示された。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A posted can be seen in the picture.",
+    "exampleJa": "写真の中に「掲示された」が見えます。",
     "day": 6
   },
   {
@@ -3702,9 +3702,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "pots",
-    "point": "pots はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows pots.",
-    "exampleJa": "写真には「鉢、鍋」が写っています。",
+    "point": "pots = 鉢、鍋。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several pots are arranged near the wall.",
+    "exampleJa": "いくつかの「鉢、鍋」が壁の近くに並べられています。",
     "day": 6
   },
   {
@@ -3714,9 +3714,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "pouring",
-    "point": "pouring はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows pouring.",
-    "exampleJa": "写真には「注いでいる」が写っています。",
+    "point": "pouring = 注いでいる。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is pouring near the work area.",
+    "exampleJa": "人が作業場所の近くで「注いでいる」動作をしています。",
     "day": 6
   },
   {
@@ -3726,9 +3726,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "protected",
-    "point": "protected はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows protected.",
-    "exampleJa": "写真には「保護された」が写っています。",
+    "point": "protected = 保護された。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A protected can be seen in the picture.",
+    "exampleJa": "写真の中に「保護された」が見えます。",
     "day": 6
   },
   {
@@ -3738,9 +3738,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "reaching",
-    "point": "reaching はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows reaching.",
-    "exampleJa": "写真には「手を伸ばしている」が写っています。",
+    "point": "reaching = 手を伸ばしている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is reaching near the work area.",
+    "exampleJa": "人が作業場所の近くで「手を伸ばしている」動作をしています。",
     "day": 6
   },
   {
@@ -3750,9 +3750,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "removing",
-    "point": "removing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows removing.",
-    "exampleJa": "写真には「取り除いている」が写っています。",
+    "point": "removing = 取り除いている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is removing near the work area.",
+    "exampleJa": "人が作業場所の近くで「取り除いている」動作をしています。",
     "day": 6
   },
   {
@@ -3762,9 +3762,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "resting",
-    "point": "resting はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows resting.",
-    "exampleJa": "写真には「置かれている、休んでいる」が写っています。",
+    "point": "resting = 置かれている、休んでいる。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is resting near the work area.",
+    "exampleJa": "人が作業場所の近くで「置かれている、休んでいる」動作をしています。",
     "day": 6
   },
   {
@@ -3774,9 +3774,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "rolls",
-    "point": "rolls はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows rolls.",
-    "exampleJa": "写真には「巻かれた物、ロール」が写っています。",
+    "point": "rolls = 巻かれた物、ロール。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several rolls are arranged near the wall.",
+    "exampleJa": "いくつかの「巻かれた物、ロール」が壁の近くに並べられています。",
     "day": 6
   },
   {
@@ -3786,9 +3786,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "shed",
-    "point": "shed はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows shed.",
-    "exampleJa": "写真には「小屋」が写っています。",
+    "point": "shed = 小屋。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A shed can be seen in the picture.",
+    "exampleJa": "写真の中に「小屋」が見えます。",
     "day": 6
   },
   {
@@ -3798,9 +3798,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "showing",
-    "point": "showing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows showing.",
-    "exampleJa": "写真には「見せている」が写っています。",
+    "point": "showing = 見せている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is showing near the work area.",
+    "exampleJa": "人が作業場所の近くで「見せている」動作をしています。",
     "day": 6
   },
   {
@@ -3810,9 +3810,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "side by side",
-    "point": "side by side はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows side by side.",
-    "exampleJa": "写真には「横並びで」が写っています。",
+    "point": "side by side = 横並びで。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A side by side can be seen in the picture.",
+    "exampleJa": "写真の中に「横並びで」が見えます。",
     "day": 6
   },
   {
@@ -3822,9 +3822,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "sign",
-    "point": "sign はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows sign.",
-    "exampleJa": "写真には「看板、標識」が写っています。",
+    "point": "sign = 看板、標識。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A sign can be seen in the picture.",
+    "exampleJa": "写真の中に「看板、標識」が見えます。",
     "day": 6
   },
   {
@@ -3834,9 +3834,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "slanted",
-    "point": "slanted はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows slanted.",
-    "exampleJa": "写真には「傾いた」が写っています。",
+    "point": "slanted = 傾いた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A slanted can be seen in the picture.",
+    "exampleJa": "写真の中に「傾いた」が見えます。",
     "day": 6
   },
   {
@@ -3845,10 +3845,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "sorting",
-    "point": "sorting はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows sorting.",
-    "exampleJa": "写真には「分類している」が写っています。",
+    "phrase": "sorting packages",
+    "point": "sorting = 分類している。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Employees are sorting packages.",
+    "exampleJa": "従業員が荷物を仕分けしています。",
     "day": 6
   },
   {
@@ -3858,9 +3858,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "spread out",
-    "point": "spread out はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows spread out.",
-    "exampleJa": "写真には「広げられた」が写っています。",
+    "point": "spread out = 広げられた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A spread out can be seen in the picture.",
+    "exampleJa": "写真の中に「広げられた」が見えます。",
     "day": 6
   },
   {
@@ -3870,9 +3870,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "stationed",
-    "point": "stationed はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows stationed.",
-    "exampleJa": "写真には「配置された」が写っています。",
+    "point": "stationed = 配置された。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A stationed can be seen in the picture.",
+    "exampleJa": "写真の中に「配置された」が見えます。",
     "day": 6
   },
   {
@@ -3882,9 +3882,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "steering",
-    "point": "steering はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows steering.",
-    "exampleJa": "写真には「ハンドル操作している」が写っています。",
+    "point": "steering = ハンドル操作している。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is steering near the work area.",
+    "exampleJa": "人が作業場所の近くで「ハンドル操作している」動作をしています。",
     "day": 6
   },
   {
@@ -3893,10 +3893,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "stool",
-    "point": "stool はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows stool.",
-    "exampleJa": "写真には「スツール、背もたれのない椅子」が写っています。",
+    "phrase": "sitting on a stool",
+    "point": "stool = スツール、背もたれのない椅子。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A man is sitting on a stool at the counter.",
+    "exampleJa": "男性がカウンターでスツールに座っています。",
     "day": 6
   },
   {
@@ -3906,9 +3906,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "strolling",
-    "point": "strolling はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows strolling.",
-    "exampleJa": "写真には「散歩している」が写っています。",
+    "point": "strolling = 散歩している。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is strolling near the work area.",
+    "exampleJa": "人が作業場所の近くで「散歩している」動作をしています。",
     "day": 6
   },
   {
@@ -3918,9 +3918,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "throwing away",
-    "point": "throwing away はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows throwing away.",
-    "exampleJa": "写真には「捨てている」が写っています。",
+    "point": "throwing away = 捨てている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A throwing away can be seen in the picture.",
+    "exampleJa": "写真の中に「捨てている」が見えます。",
     "day": 6
   },
   {
@@ -3930,9 +3930,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "trimmed",
-    "point": "trimmed はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows trimmed.",
-    "exampleJa": "写真には「刈り込まれた、整えられた」が写っています。",
+    "point": "trimmed = 刈り込まれた、整えられた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A trimmed can be seen in the picture.",
+    "exampleJa": "写真の中に「刈り込まれた、整えられた」が見えます。",
     "day": 6
   },
   {
@@ -3941,10 +3941,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "vines",
-    "point": "vines はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows vines.",
-    "exampleJa": "写真には「つる植物」が写っています。",
+    "phrase": "vines are growing",
+    "point": "vines = つる植物。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Vines are growing along the fence.",
+    "exampleJa": "つる植物がフェンス沿いに伸びています。",
     "day": 6
   },
   {
@@ -3954,9 +3954,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "waiting",
-    "point": "waiting はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows waiting.",
-    "exampleJa": "写真には「待っている」が写っています。",
+    "point": "waiting = 待っている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is waiting near the work area.",
+    "exampleJa": "人が作業場所の近くで「待っている」動作をしています。",
     "day": 6
   },
   {
@@ -3966,9 +3966,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "walkway",
-    "point": "walkway はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows walkway.",
-    "exampleJa": "写真には「歩道、通路」が写っています。",
+    "point": "walkway = 歩道、通路。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A walkway can be seen in the picture.",
+    "exampleJa": "写真の中に「歩道、通路」が見えます。",
     "day": 6
   },
   {
@@ -3977,10 +3977,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "watering",
-    "point": "watering はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows watering.",
-    "exampleJa": "写真には「水をやっている」が写っています。",
+    "phrase": "watering plants",
+    "point": "watering = 水をやっている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A woman is watering plants.",
+    "exampleJa": "女性が植物に水をやっています。",
     "day": 6
   },
   {
@@ -3989,10 +3989,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "windowpanes",
-    "point": "windowpanes はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows windowpanes.",
-    "exampleJa": "写真には「窓ガラス」が写っています。",
+    "phrase": "cleaning windowpanes",
+    "point": "windowpanes = 窓ガラス。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A worker is cleaning the windowpanes.",
+    "exampleJa": "作業員が窓ガラスを掃除しています。",
     "day": 6
   },
   {
@@ -4001,10 +4001,10 @@ const VOCAB = [
     "category": "part1",
     "priority": 3,
     "star": false,
-    "phrase": "windowsill",
-    "point": "windowsill はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows windowsill.",
-    "exampleJa": "写真には「窓台」が写っています。",
+    "phrase": "on the windowsill",
+    "point": "windowsill = 窓台。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Plants are placed on the windowsill.",
+    "exampleJa": "植物が窓台に置かれています。",
     "day": 6
   },
   {
@@ -4014,9 +4014,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "achievements",
-    "point": "achievements はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: achievements.",
-    "exampleJa": "この表現はTOEICで重要です：業績、成果。",
+    "point": "achievements = 業績、成果。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed achievements during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「業績、成果」について話し合いました。",
     "day": 6
   },
   {
@@ -4026,9 +4026,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "acknowledged",
-    "point": "acknowledged はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: acknowledged.",
-    "exampleJa": "この表現はTOEICで重要です：認めた、受領確認した。",
+    "point": "acknowledged = 認めた、受領確認した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was acknowledged after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「認めた、受領確認した」状態になりました。",
     "day": 6
   },
   {
@@ -4038,9 +4038,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "acquired",
-    "point": "acquired はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: acquired.",
-    "exampleJa": "この表現はTOEICで重要です：取得した、買収した。",
+    "point": "acquired = 取得した、買収した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was acquired after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「取得した、買収した」状態になりました。",
     "day": 6
   },
   {
@@ -4050,9 +4050,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "acquisitions",
-    "point": "acquisitions はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: acquisitions.",
-    "exampleJa": "この表現はTOEICで重要です：買収。",
+    "point": "acquisitions = 買収。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed acquisitions during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「買収」について話し合いました。",
     "day": 6
   },
   {
@@ -4062,9 +4062,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "admission",
-    "point": "admission はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: admission.",
-    "exampleJa": "この表現はTOEICで重要です：入場、入学。",
+    "point": "admission = 入場、入学。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed admission during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「入場、入学」について話し合いました。",
     "day": 6
   },
   {
@@ -4074,9 +4074,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "adoption",
-    "point": "adoption はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: adoption.",
-    "exampleJa": "この表現はTOEICで重要です：採用、導入。",
+    "point": "adoption = 採用、導入。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about adoption.",
+    "exampleJa": "その報告書には「採用、導入」に関する情報が含まれています。",
     "day": 6
   },
   {
@@ -4086,9 +4086,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "advancement",
-    "point": "advancement はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: advancement.",
-    "exampleJa": "この表現はTOEICで重要です：進歩、昇進。",
+    "point": "advancement = 進歩、昇進。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about advancement.",
+    "exampleJa": "その報告書には「進歩、昇進」に関する情報が含まれています。",
     "day": 6
   },
   {
@@ -4098,9 +4098,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "advertised",
-    "point": "advertised はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: advertised.",
-    "exampleJa": "この表現はTOEICで重要です：広告された、宣伝された。",
+    "point": "advertised = 広告された、宣伝された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was advertised after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「広告された、宣伝された」状態になりました。",
     "day": 6
   },
   {
@@ -4110,9 +4110,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "allowance",
-    "point": "allowance はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: allowance.",
-    "exampleJa": "この表現はTOEICで重要です：手当、許容量。",
+    "point": "allowance = 手当、許容量。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about allowance.",
+    "exampleJa": "その報告書には「手当、許容量」に関する情報が含まれています。",
     "day": 7
   },
   {
@@ -4122,9 +4122,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "amount",
-    "point": "amount はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: amount.",
-    "exampleJa": "この表現はTOEICで重要です：量、金額。",
+    "point": "amount = 量、金額。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed amount during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「量、金額」について話し合いました。",
     "day": 7
   },
   {
@@ -4134,9 +4134,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "analytical",
-    "point": "analytical はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: analytical.",
-    "exampleJa": "この表現はTOEICで重要です：分析の。",
+    "point": "analytical = 分析の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed analytical during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「分析の」について話し合いました。",
     "day": 7
   },
   {
@@ -4146,9 +4146,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "annually",
-    "point": "annually はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: annually.",
-    "exampleJa": "この表現はTOEICで重要です：毎年。",
+    "point": "annually = 毎年。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded annually to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「毎年」対応しました。",
     "day": 7
   },
   {
@@ -4158,9 +4158,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "anonymous",
-    "point": "anonymous はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: anonymous.",
-    "exampleJa": "この表現はTOEICで重要です：匿名の。",
+    "point": "anonymous = 匿名の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed anonymous during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「匿名の」について話し合いました。",
     "day": 7
   },
   {
@@ -4170,9 +4170,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "anticipated",
-    "point": "anticipated はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: anticipated.",
-    "exampleJa": "この表現はTOEICで重要です：予想された。",
+    "point": "anticipated = 予想された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was anticipated after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「予想された」状態になりました。",
     "day": 7
   },
   {
@@ -4182,9 +4182,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "asset",
-    "point": "asset はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: asset.",
-    "exampleJa": "この表現はTOEICで重要です：資産、強み。",
+    "point": "asset = 資産、強み。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed asset during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「資産、強み」について話し合いました。",
     "day": 7
   },
   {
@@ -4194,9 +4194,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "assuming",
-    "point": "assuming はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: assuming.",
-    "exampleJa": "この表現はTOEICで重要です：〜と仮定して。",
+    "point": "assuming = 〜と仮定して。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed assuming during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜と仮定して」について話し合いました。",
     "day": 7
   },
   {
@@ -4206,9 +4206,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "attempt",
-    "point": "attempt はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: attempt.",
-    "exampleJa": "この表現はTOEICで重要です：試みる、試み。",
+    "point": "attempt = 試みる、試み。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed attempt during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「試みる、試み」について話し合いました。",
     "day": 7
   },
   {
@@ -4218,9 +4218,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "auditorium",
-    "point": "auditorium はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: auditorium.",
-    "exampleJa": "この表現はTOEICで重要です：講堂。",
+    "point": "auditorium = 講堂。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed auditorium during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「講堂」について話し合いました。",
     "day": 7
   },
   {
@@ -4230,9 +4230,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "awareness",
-    "point": "awareness はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: awareness.",
-    "exampleJa": "この表現はTOEICで重要です：認識、意識。",
+    "point": "awareness = 認識、意識。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about awareness.",
+    "exampleJa": "その報告書には「認識、意識」に関する情報が含まれています。",
     "day": 7
   },
   {
@@ -4242,9 +4242,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "belongings",
-    "point": "belongings はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: belongings.",
-    "exampleJa": "この表現はTOEICで重要です：所持品。",
+    "point": "belongings = 所持品。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed belongings during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「所持品」について話し合いました。",
     "day": 7
   },
   {
@@ -4254,9 +4254,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "brainstorm",
-    "point": "brainstorm はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: brainstorm.",
-    "exampleJa": "この表現はTOEICで重要です：ブレストする。",
+    "point": "brainstorm = ブレストする。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed brainstorm during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「ブレストする」について話し合いました。",
     "day": 7
   },
   {
@@ -4266,9 +4266,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "briefly",
-    "point": "briefly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: briefly.",
-    "exampleJa": "この表現はTOEICで重要です：簡潔に。",
+    "point": "briefly = 簡潔に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded briefly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「簡潔に」対応しました。",
     "day": 7
   },
   {
@@ -4278,9 +4278,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "cautiously",
-    "point": "cautiously はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: cautiously.",
-    "exampleJa": "この表現はTOEICで重要です：慎重に。",
+    "point": "cautiously = 慎重に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded cautiously to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「慎重に」対応しました。",
     "day": 7
   },
   {
@@ -4290,9 +4290,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "characteristic",
-    "point": "characteristic はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: characteristic.",
-    "exampleJa": "この表現はTOEICで重要です：特徴。",
+    "point": "characteristic = 特徴。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed characteristic during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「特徴」について話し合いました。",
     "day": 7
   },
   {
@@ -4302,9 +4302,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "commission",
-    "point": "commission はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: commission.",
-    "exampleJa": "この表現はTOEICで重要です：手数料、委員会。",
+    "point": "commission = 手数料、委員会。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed commission during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「手数料、委員会」について話し合いました。",
     "day": 7
   },
   {
@@ -4314,9 +4314,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "commonly",
-    "point": "commonly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: commonly.",
-    "exampleJa": "この表現はTOEICで重要です：一般的に。",
+    "point": "commonly = 一般的に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded commonly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「一般的に」対応しました。",
     "day": 7
   },
   {
@@ -4326,9 +4326,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "comparison",
-    "point": "comparison はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: comparison.",
-    "exampleJa": "この表現はTOEICで重要です：比較。",
+    "point": "comparison = 比較。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed comparison during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「比較」について話し合いました。",
     "day": 7
   },
   {
@@ -4338,9 +4338,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "compete",
-    "point": "compete はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: compete.",
-    "exampleJa": "この表現はTOEICで重要です：競争する。",
+    "point": "compete = 競争する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed compete during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「競争する」について話し合いました。",
     "day": 7
   },
   {
@@ -4350,9 +4350,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "competitors",
-    "point": "competitors はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: competitors.",
-    "exampleJa": "この表現はTOEICで重要です：競合他社。",
+    "point": "competitors = 競合他社。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed competitors during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「競合他社」について話し合いました。",
     "day": 7
   },
   {
@@ -4362,9 +4362,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "conclusion",
-    "point": "conclusion はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: conclusion.",
-    "exampleJa": "この表現はTOEICで重要です：結論。",
+    "point": "conclusion = 結論。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed conclusion during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「結論」について話し合いました。",
     "day": 7
   },
   {
@@ -4374,9 +4374,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "conform to",
-    "point": "conform to はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: conform to.",
-    "exampleJa": "この表現はTOEICで重要です：〜に従う、適合する。",
+    "point": "conform to = 〜に従う、適合する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed conform to during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜に従う、適合する」について話し合いました。",
     "day": 7
   },
   {
@@ -4386,9 +4386,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "consistency",
-    "point": "consistency はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: consistency.",
-    "exampleJa": "この表現はTOEICで重要です：一貫性。",
+    "point": "consistency = 一貫性。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed consistency during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「一貫性」について話し合いました。",
     "day": 7
   },
   {
@@ -4398,9 +4398,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "consulted",
-    "point": "consulted はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: consulted.",
-    "exampleJa": "この表現はTOEICで重要です：相談した。",
+    "point": "consulted = 相談した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was consulted after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「相談した」状態になりました。",
     "day": 7
   },
   {
@@ -4410,9 +4410,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "contributions",
-    "point": "contributions はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: contributions.",
-    "exampleJa": "この表現はTOEICで重要です：貢献、寄付。",
+    "point": "contributions = 貢献、寄付。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed contributions during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「貢献、寄付」について話し合いました。",
     "day": 7
   },
   {
@@ -4422,9 +4422,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "convention",
-    "point": "convention はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: convention.",
-    "exampleJa": "この表現はTOEICで重要です：大会、慣習。",
+    "point": "convention = 大会、慣習。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about convention.",
+    "exampleJa": "その報告書には「大会、慣習」に関する情報が含まれています。",
     "day": 7
   },
   {
@@ -4434,9 +4434,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "convert",
-    "point": "convert はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: convert.",
-    "exampleJa": "この表現はTOEICで重要です：変換する。",
+    "point": "convert = 変換する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed convert during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「変換する」について話し合いました。",
     "day": 7
   },
   {
@@ -4446,9 +4446,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "correctly",
-    "point": "correctly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: correctly.",
-    "exampleJa": "この表現はTOEICで重要です：正しく。",
+    "point": "correctly = 正しく。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded correctly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「正しく」対応しました。",
     "day": 7
   },
   {
@@ -4458,9 +4458,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "criteria",
-    "point": "criteria はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: criteria.",
-    "exampleJa": "この表現はTOEICで重要です：基準。",
+    "point": "criteria = 基準。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed criteria during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「基準」について話し合いました。",
     "day": 7
   },
   {
@@ -4470,9 +4470,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "critically",
-    "point": "critically はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: critically.",
-    "exampleJa": "この表現はTOEICで重要です：批判的に、非常に重要に。",
+    "point": "critically = 批判的に、非常に重要に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded critically to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「批判的に、非常に重要に」対応しました。",
     "day": 7
   },
   {
@@ -4482,9 +4482,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "customize",
-    "point": "customize はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: customize.",
-    "exampleJa": "この表現はTOEICで重要です：カスタマイズする。",
+    "point": "customize = カスタマイズする。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed customize during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「カスタマイズする」について話し合いました。",
     "day": 7
   },
   {
@@ -4494,9 +4494,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "dealership",
-    "point": "dealership はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: dealership.",
-    "exampleJa": "この表現はTOEICで重要です：販売代理店。",
+    "point": "dealership = 販売代理店。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed dealership during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「販売代理店」について話し合いました。",
     "day": 7
   },
   {
@@ -4506,9 +4506,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "decade",
-    "point": "decade はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: decade.",
-    "exampleJa": "この表現はTOEICで重要です：10年。",
+    "point": "decade = 10年。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed decade during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「10年」について話し合いました。",
     "day": 7
   },
   {
@@ -4518,9 +4518,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "delighted",
-    "point": "delighted はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: delighted.",
-    "exampleJa": "この表現はTOEICで重要です：喜んでいる。",
+    "point": "delighted = 喜んでいる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was delighted after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「喜んでいる」状態になりました。",
     "day": 7
   },
   {
@@ -4530,9 +4530,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "departmental",
-    "point": "departmental はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: departmental.",
-    "exampleJa": "この表現はTOEICで重要です：部門の。",
+    "point": "departmental = 部門の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed departmental during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「部門の」について話し合いました。",
     "day": 7
   },
   {
@@ -4542,9 +4542,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "derive",
-    "point": "derive はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: derive.",
-    "exampleJa": "この表現はTOEICで重要です：得る、由来する。",
+    "point": "derive = 得る、由来する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed derive during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「得る、由来する」について話し合いました。",
     "day": 7
   },
   {
@@ -4554,9 +4554,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "desired",
-    "point": "desired はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: desired.",
-    "exampleJa": "この表現はTOEICで重要です：望ましい。",
+    "point": "desired = 望ましい。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was desired after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「望ましい」状態になりました。",
     "day": 7
   },
   {
@@ -4566,9 +4566,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "destinations",
-    "point": "destinations はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: destinations.",
-    "exampleJa": "この表現はTOEICで重要です：目的地。",
+    "point": "destinations = 目的地。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed destinations during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「目的地」について話し合いました。",
     "day": 7
   },
   {
@@ -4578,9 +4578,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "differ",
-    "point": "differ はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: differ.",
-    "exampleJa": "この表現はTOEICで重要です：異なる。",
+    "point": "differ = 異なる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed differ during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「異なる」について話し合いました。",
     "day": 7
   },
   {
@@ -4590,9 +4590,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "disposing",
-    "point": "disposing はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: disposing.",
-    "exampleJa": "この表現はTOEICで重要です：処分する。",
+    "point": "disposing = 処分する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed disposing during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「処分する」について話し合いました。",
     "day": 7
   },
   {
@@ -4602,9 +4602,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "distinguished",
-    "point": "distinguished はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: distinguished.",
-    "exampleJa": "この表現はTOEICで重要です：著名な、優れた。",
+    "point": "distinguished = 著名な、優れた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was distinguished after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「著名な、優れた」状態になりました。",
     "day": 7
   },
   {
@@ -4614,9 +4614,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "distribute",
-    "point": "distribute はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: distribute.",
-    "exampleJa": "この表現はTOEICで重要です：配布する、流通させる。",
+    "point": "distribute = 配布する、流通させる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed distribute during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「配布する、流通させる」について話し合いました。",
     "day": 7
   },
   {
@@ -4626,9 +4626,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "dominant",
-    "point": "dominant はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: dominant.",
-    "exampleJa": "この表現はTOEICで重要です：支配的な、主要な。",
+    "point": "dominant = 支配的な、主要な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed dominant during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「支配的な、主要な」について話し合いました。",
     "day": 7
   },
   {
@@ -4638,9 +4638,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "dominate",
-    "point": "dominate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: dominate.",
-    "exampleJa": "この表現はTOEICで重要です：支配する、優勢である。",
+    "point": "dominate = 支配する、優勢である。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed dominate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「支配する、優勢である」について話し合いました。",
     "day": 7
   },
   {
@@ -4650,9 +4650,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "elected",
-    "point": "elected はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: elected.",
-    "exampleJa": "この表現はTOEICで重要です：選ばれた、選出された。",
+    "point": "elected = 選ばれた、選出された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was elected after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「選ばれた、選出された」状態になりました。",
     "day": 7
   },
   {
@@ -4662,9 +4662,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "enclosure",
-    "point": "enclosure はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: enclosure.",
-    "exampleJa": "この表現はTOEICで重要です：同封物、囲い。",
+    "point": "enclosure = 同封物、囲い。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed enclosure during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「同封物、囲い」について話し合いました。",
     "day": 7
   },
   {
@@ -4674,9 +4674,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "encountered",
-    "point": "encountered はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: encountered.",
-    "exampleJa": "この表現はTOEICで重要です：遭遇した。",
+    "point": "encountered = 遭遇した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was encountered after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「遭遇した」状態になりました。",
     "day": 7
   },
   {
@@ -4686,9 +4686,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "enthusiasm",
-    "point": "enthusiasm はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: enthusiasm.",
-    "exampleJa": "この表現はTOEICで重要です：熱意。",
+    "point": "enthusiasm = 熱意。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed enthusiasm during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「熱意」について話し合いました。",
     "day": 7
   },
   {
@@ -4698,9 +4698,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "especially",
-    "point": "especially はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: especially.",
-    "exampleJa": "この表現はTOEICで重要です：特に。",
+    "point": "especially = 特に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded especially to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「特に」対応しました。",
     "day": 7
   },
   {
@@ -4710,9 +4710,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "eventually",
-    "point": "eventually はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: eventually.",
-    "exampleJa": "この表現はTOEICで重要です：最終的に。",
+    "point": "eventually = 最終的に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded eventually to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「最終的に」対応しました。",
     "day": 7
   },
   {
@@ -4722,9 +4722,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "evident",
-    "point": "evident はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: evident.",
-    "exampleJa": "この表現はTOEICで重要です：明らかな。",
+    "point": "evident = 明らかな。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed evident during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「明らかな」について話し合いました。",
     "day": 7
   },
   {
@@ -4734,9 +4734,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "executive vice president",
-    "point": "executive vice president はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: executive vice president.",
-    "exampleJa": "この表現はTOEICで重要です：上級副社長。",
+    "point": "executive vice president = 上級副社長。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed executive vice president during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「上級副社長」について話し合いました。",
     "day": 7
   },
   {
@@ -4746,9 +4746,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "extension",
-    "point": "extension はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: extension.",
-    "exampleJa": "この表現はTOEICで重要です：延長、内線。",
+    "point": "extension = 延長、内線。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed extension during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「延長、内線」について話し合いました。",
     "day": 7
   },
   {
@@ -4758,9 +4758,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "faucet leak",
-    "point": "faucet leak はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: faucet leak.",
-    "exampleJa": "この表現はTOEICで重要です：蛇口の水漏れ。",
+    "point": "faucet leak = 蛇口の水漏れ。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed faucet leak during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「蛇口の水漏れ」について話し合いました。",
     "day": 7
   },
   {
@@ -4770,9 +4770,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "favorable",
-    "point": "favorable はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: favorable.",
-    "exampleJa": "この表現はTOEICで重要です：好意的な、有利な。",
+    "point": "favorable = 好意的な、有利な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed favorable during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「好意的な、有利な」について話し合いました。",
     "day": 7
   },
   {
@@ -4782,9 +4782,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "fleet",
-    "point": "fleet はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: fleet.",
-    "exampleJa": "この表現はTOEICで重要です：車両群。",
+    "point": "fleet = 車両群。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed fleet during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「車両群」について話し合いました。",
     "day": 7
   },
   {
@@ -4794,9 +4794,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "fluent",
-    "point": "fluent はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: fluent.",
-    "exampleJa": "この表現はTOEICで重要です：流暢な。",
+    "point": "fluent = 流暢な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed fluent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「流暢な」について話し合いました。",
     "day": 8
   },
   {
@@ -4806,9 +4806,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "for sale",
-    "point": "for sale はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: for sale.",
-    "exampleJa": "この表現はTOEICで重要です：売り出し中。",
+    "point": "for sale = 売り出し中。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed for sale during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「売り出し中」について話し合いました。",
     "day": 8
   },
   {
@@ -4818,9 +4818,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "formerly",
-    "point": "formerly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: formerly.",
-    "exampleJa": "この表現はTOEICで重要です：以前は。",
+    "point": "formerly = 以前は。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded formerly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「以前は」対応しました。",
     "day": 8
   },
   {
@@ -4830,9 +4830,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "ingredients",
-    "point": "ingredients はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: ingredients.",
-    "exampleJa": "この表現はTOEICで重要です：材料、成分。",
+    "point": "ingredients = 材料、成分。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed ingredients during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「材料、成分」について話し合いました。",
     "day": 8
   },
   {
@@ -4842,9 +4842,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "initiate",
-    "point": "initiate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: initiate.",
-    "exampleJa": "この表現はTOEICで重要です：開始する。",
+    "point": "initiate = 開始する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed initiate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「開始する」について話し合いました。",
     "day": 8
   },
   {
@@ -4854,9 +4854,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "instantly",
-    "point": "instantly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: instantly.",
-    "exampleJa": "この表現はTOEICで重要です：即座に。",
+    "point": "instantly = 即座に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded instantly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「即座に」対応しました。",
     "day": 8
   },
   {
@@ -4866,9 +4866,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "institute",
-    "point": "institute はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: institute.",
-    "exampleJa": "この表現はTOEICで重要です：設立する、機関。",
+    "point": "institute = 設立する、機関。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed institute during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「設立する、機関」について話し合いました。",
     "day": 8
   },
   {
@@ -4878,9 +4878,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "instructional",
-    "point": "instructional はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: instructional.",
-    "exampleJa": "この表現はTOEICで重要です：説明用の、教育用の。",
+    "point": "instructional = 説明用の、教育用の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed instructional during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「説明用の、教育用の」について話し合いました。",
     "day": 8
   },
   {
@@ -4890,9 +4890,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "intense",
-    "point": "intense はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: intense.",
-    "exampleJa": "この表現はTOEICで重要です：激しい。",
+    "point": "intense = 激しい。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed intense during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「激しい」について話し合いました。",
     "day": 8
   },
   {
@@ -4902,9 +4902,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "involving",
-    "point": "involving はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: involving.",
-    "exampleJa": "この表現はTOEICで重要です：〜を含む、関係する。",
+    "point": "involving = 〜を含む、関係する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed involving during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「〜を含む、関係する」について話し合いました。",
     "day": 8
   },
   {
@@ -4914,9 +4914,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "knowledgeable",
-    "point": "knowledgeable はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: knowledgeable.",
-    "exampleJa": "この表現はTOEICで重要です：知識が豊富な。",
+    "point": "knowledgeable = 知識が豊富な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed knowledgeable during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「知識が豊富な」について話し合いました。",
     "day": 8
   },
   {
@@ -4926,9 +4926,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "landlord",
-    "point": "landlord はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: landlord.",
-    "exampleJa": "この表現はTOEICで重要です：大家。",
+    "point": "landlord = 大家。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed landlord during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「大家」について話し合いました。",
     "day": 8
   },
   {
@@ -4938,9 +4938,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "landmark",
-    "point": "landmark はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: landmark.",
-    "exampleJa": "この表現はTOEICで重要です：目印、歴史的建造物。",
+    "point": "landmark = 目印、歴史的建造物。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed landmark during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「目印、歴史的建造物」について話し合いました。",
     "day": 8
   },
   {
@@ -4950,9 +4950,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "locally",
-    "point": "locally はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: locally.",
-    "exampleJa": "この表現はTOEICで重要です：地元で。",
+    "point": "locally = 地元で。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded locally to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「地元で」対応しました。",
     "day": 8
   },
   {
@@ -4962,9 +4962,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "maximized",
-    "point": "maximized はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: maximized.",
-    "exampleJa": "この表現はTOEICで重要です：最大化された。",
+    "point": "maximized = 最大化された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was maximized after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「最大化された」状態になりました。",
     "day": 8
   },
   {
@@ -4974,9 +4974,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "measurement",
-    "point": "measurement はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: measurement.",
-    "exampleJa": "この表現はTOEICで重要です：測定、寸法。",
+    "point": "measurement = 測定、寸法。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about measurement.",
+    "exampleJa": "その報告書には「測定、寸法」に関する情報が含まれています。",
     "day": 8
   },
   {
@@ -4986,9 +4986,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "mentoring",
-    "point": "mentoring はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: mentoring.",
-    "exampleJa": "この表現はTOEICで重要です：指導、メンタリング。",
+    "point": "mentoring = 指導、メンタリング。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed mentoring during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「指導、メンタリング」について話し合いました。",
     "day": 8
   },
   {
@@ -4998,9 +4998,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "merger",
-    "point": "merger はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: merger.",
-    "exampleJa": "この表現はTOEICで重要です：合併。",
+    "point": "merger = 合併。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed merger during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「合併」について話し合いました。",
     "day": 8
   },
   {
@@ -5010,9 +5010,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "moderate",
-    "point": "moderate はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: moderate.",
-    "exampleJa": "この表現はTOEICで重要です：適度な、緩やかな。",
+    "point": "moderate = 適度な、緩やかな。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed moderate during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「適度な、緩やかな」について話し合いました。",
     "day": 8
   },
   {
@@ -5022,9 +5022,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "modernize",
-    "point": "modernize はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: modernize.",
-    "exampleJa": "この表現はTOEICで重要です：近代化する。",
+    "point": "modernize = 近代化する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed modernize during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「近代化する」について話し合いました。",
     "day": 8
   },
   {
@@ -5034,9 +5034,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "municipal",
-    "point": "municipal はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: municipal.",
-    "exampleJa": "この表現はTOEICで重要です：市の、自治体の。",
+    "point": "municipal = 市の、自治体の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed municipal during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「市の、自治体の」について話し合いました。",
     "day": 8
   },
   {
@@ -5046,9 +5046,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "nonprofit organization",
-    "point": "nonprofit organization はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: nonprofit organization.",
-    "exampleJa": "この表現はTOEICで重要です：非営利団体。",
+    "point": "nonprofit organization = 非営利団体。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about nonprofit organization.",
+    "exampleJa": "その報告書には「非営利団体」に関する情報が含まれています。",
     "day": 8
   },
   {
@@ -5058,9 +5058,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "nutrition",
-    "point": "nutrition はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: nutrition.",
-    "exampleJa": "この表現はTOEICで重要です：栄養。",
+    "point": "nutrition = 栄養。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about nutrition.",
+    "exampleJa": "その報告書には「栄養」に関する情報が含まれています。",
     "day": 8
   },
   {
@@ -5070,9 +5070,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "obligation",
-    "point": "obligation はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: obligation.",
-    "exampleJa": "この表現はTOEICで重要です：義務。",
+    "point": "obligation = 義務。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about obligation.",
+    "exampleJa": "その報告書には「義務」に関する情報が含まれています。",
     "day": 8
   },
   {
@@ -5082,9 +5082,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "observe",
-    "point": "observe はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: observe.",
-    "exampleJa": "この表現はTOEICで重要です：観察する、遵守する。",
+    "point": "observe = 観察する、遵守する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed observe during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「観察する、遵守する」について話し合いました。",
     "day": 8
   },
   {
@@ -5094,9 +5094,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "obtain",
-    "point": "obtain はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: obtain.",
-    "exampleJa": "この表現はTOEICで重要です：得る、入手する。",
+    "point": "obtain = 得る、入手する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed obtain during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「得る、入手する」について話し合いました。",
     "day": 8
   },
   {
@@ -5106,9 +5106,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "occasionally",
-    "point": "occasionally はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: occasionally.",
-    "exampleJa": "この表現はTOEICで重要です：時々。",
+    "point": "occasionally = 時々。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded occasionally to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「時々」対応しました。",
     "day": 8
   },
   {
@@ -5118,9 +5118,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "occupied",
-    "point": "occupied はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: occupied.",
-    "exampleJa": "この表現はTOEICで重要です：使用中の、占有された。",
+    "point": "occupied = 使用中の、占有された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was occupied after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「使用中の、占有された」状態になりました。",
     "day": 8
   },
   {
@@ -5130,9 +5130,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "outcome",
-    "point": "outcome はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: outcome.",
-    "exampleJa": "この表現はTOEICで重要です：結果。",
+    "point": "outcome = 結果。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed outcome during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「結果」について話し合いました。",
     "day": 8
   },
   {
@@ -5142,9 +5142,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "outdated",
-    "point": "outdated はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: outdated.",
-    "exampleJa": "この表現はTOEICで重要です：時代遅れの。",
+    "point": "outdated = 時代遅れの。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was outdated after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「時代遅れの」状態になりました。",
     "day": 8
   },
   {
@@ -5154,9 +5154,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "outlook",
-    "point": "outlook はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: outlook.",
-    "exampleJa": "この表現はTOEICで重要です：見通し、見解。",
+    "point": "outlook = 見通し、見解。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed outlook during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「見通し、見解」について話し合いました。",
     "day": 8
   },
   {
@@ -5166,9 +5166,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "paperwork",
-    "point": "paperwork はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: paperwork.",
-    "exampleJa": "この表現はTOEICで重要です：書類仕事。",
+    "point": "paperwork = 書類仕事。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed paperwork during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「書類仕事」について話し合いました。",
     "day": 8
   },
   {
@@ -5178,9 +5178,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "parallel",
-    "point": "parallel はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: parallel.",
-    "exampleJa": "この表現はTOEICで重要です：並行の、平行な。",
+    "point": "parallel = 並行の、平行な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed parallel during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「並行の、平行な」について話し合いました。",
     "day": 8
   },
   {
@@ -5190,9 +5190,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "participant",
-    "point": "participant はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: participant.",
-    "exampleJa": "この表現はTOEICで重要です：参加者。",
+    "point": "participant = 参加者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed participant during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「参加者」について話し合いました。",
     "day": 8
   },
   {
@@ -5202,9 +5202,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "permanently",
-    "point": "permanently はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: permanently.",
-    "exampleJa": "この表現はTOEICで重要です：永久に。",
+    "point": "permanently = 永久に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded permanently to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「永久に」対応しました。",
     "day": 8
   },
   {
@@ -5214,9 +5214,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "persuaded",
-    "point": "persuaded はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: persuaded.",
-    "exampleJa": "この表現はTOEICで重要です：説得した。",
+    "point": "persuaded = 説得した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was persuaded after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「説得した」状態になりました。",
     "day": 8
   },
   {
@@ -5226,9 +5226,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "pharmaceutical",
-    "point": "pharmaceutical はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: pharmaceutical.",
-    "exampleJa": "この表現はTOEICで重要です：製薬の。",
+    "point": "pharmaceutical = 製薬の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed pharmaceutical during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「製薬の」について話し合いました。",
     "day": 8
   },
   {
@@ -5238,9 +5238,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "pharmacy",
-    "point": "pharmacy はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: pharmacy.",
-    "exampleJa": "この表現はTOEICで重要です：薬局。",
+    "point": "pharmacy = 薬局。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed pharmacy during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「薬局」について話し合いました。",
     "day": 8
   },
   {
@@ -5250,9 +5250,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "plumber",
-    "point": "plumber はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: plumber.",
-    "exampleJa": "この表現はTOEICで重要です：配管工。",
+    "point": "plumber = 配管工。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed plumber during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「配管工」について話し合いました。",
     "day": 8
   },
   {
@@ -5262,9 +5262,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "predict",
-    "point": "predict はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: predict.",
-    "exampleJa": "この表現はTOEICで重要です：予測する。",
+    "point": "predict = 予測する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed predict during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「予測する」について話し合いました。",
     "day": 8
   },
   {
@@ -5274,9 +5274,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "present",
-    "point": "present はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: present.",
-    "exampleJa": "この表現はTOEICで重要です：現在の、提示する。",
+    "point": "present = 現在の、提示する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed present during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「現在の、提示する」について話し合いました。",
     "day": 8
   },
   {
@@ -5286,9 +5286,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "prestigious",
-    "point": "prestigious はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: prestigious.",
-    "exampleJa": "この表現はTOEICで重要です：一流の、名誉ある。",
+    "point": "prestigious = 一流の、名誉ある。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed prestigious during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「一流の、名誉ある」について話し合いました。",
     "day": 8
   },
   {
@@ -5298,9 +5298,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "previously",
-    "point": "previously はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: previously.",
-    "exampleJa": "この表現はTOEICで重要です：以前に。",
+    "point": "previously = 以前に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded previously to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「以前に」対応しました。",
     "day": 8
   },
   {
@@ -5310,9 +5310,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "prominent",
-    "point": "prominent はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: prominent.",
-    "exampleJa": "この表現はTOEICで重要です：著名な、目立つ。",
+    "point": "prominent = 著名な、目立つ。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed prominent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「著名な、目立つ」について話し合いました。",
     "day": 8
   },
   {
@@ -5322,9 +5322,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "qualifies",
-    "point": "qualifies はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: qualifies.",
-    "exampleJa": "この表現はTOEICで重要です：資格を与える、条件を満たす。",
+    "point": "qualifies = 資格を与える、条件を満たす。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed qualifies during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「資格を与える、条件を満たす」について話し合いました。",
     "day": 8
   },
   {
@@ -5334,9 +5334,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "quantitative",
-    "point": "quantitative はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: quantitative.",
-    "exampleJa": "この表現はTOEICで重要です：量的な、数値の。",
+    "point": "quantitative = 量的な、数値の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed quantitative during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「量的な、数値の」について話し合いました。",
     "day": 8
   },
   {
@@ -5346,9 +5346,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "recognition",
-    "point": "recognition はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: recognition.",
-    "exampleJa": "この表現はTOEICで重要です：認識、表彰。",
+    "point": "recognition = 認識、表彰。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about recognition.",
+    "exampleJa": "その報告書には「認識、表彰」に関する情報が含まれています。",
     "day": 8
   },
   {
@@ -5358,9 +5358,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "reduces",
-    "point": "reduces はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: reduces.",
-    "exampleJa": "この表現はTOEICで重要です：減らす。",
+    "point": "reduces = 減らす。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed reduces during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「減らす」について話し合いました。",
     "day": 8
   },
   {
@@ -5370,9 +5370,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "regional",
-    "point": "regional はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: regional.",
-    "exampleJa": "この表現はTOEICで重要です：地域の。",
+    "point": "regional = 地域の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed regional during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「地域の」について話し合いました。",
     "day": 8
   },
   {
@@ -5382,9 +5382,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "relatively",
-    "point": "relatively はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: relatively.",
-    "exampleJa": "この表現はTOEICで重要です：比較的。",
+    "point": "relatively = 比較的。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded relatively to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「比較的」対応しました。",
     "day": 8
   },
   {
@@ -5394,9 +5394,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "remarks",
-    "point": "remarks はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: remarks.",
-    "exampleJa": "この表現はTOEICで重要です：発言、所感。",
+    "point": "remarks = 発言、所感。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed remarks during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「発言、所感」について話し合いました。",
     "day": 8
   },
   {
@@ -5406,9 +5406,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "resignations",
-    "point": "resignations はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: resignations.",
-    "exampleJa": "この表現はTOEICで重要です：辞職、退職。",
+    "point": "resignations = 辞職、退職。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed resignations during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「辞職、退職」について話し合いました。",
     "day": 8
   },
   {
@@ -5418,9 +5418,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "resistant",
-    "point": "resistant はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: resistant.",
-    "exampleJa": "この表現はTOEICで重要です：抵抗力のある。",
+    "point": "resistant = 抵抗力のある。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed resistant during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「抵抗力のある」について話し合いました。",
     "day": 8
   },
   {
@@ -5430,9 +5430,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "revealed",
-    "point": "revealed はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: revealed.",
-    "exampleJa": "この表現はTOEICで重要です：明らかにした。",
+    "point": "revealed = 明らかにした。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was revealed after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「明らかにした」状態になりました。",
     "day": 8
   },
   {
@@ -5442,9 +5442,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "rural",
-    "point": "rural はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: rural.",
-    "exampleJa": "この表現はTOEICで重要です：田舎の、地方の。",
+    "point": "rural = 田舎の、地方の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed rural during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「田舎の、地方の」について話し合いました。",
     "day": 8
   },
   {
@@ -5454,9 +5454,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "satisfactory",
-    "point": "satisfactory はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: satisfactory.",
-    "exampleJa": "この表現はTOEICで重要です：満足のいく。",
+    "point": "satisfactory = 満足のいく。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed satisfactory during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「満足のいく」について話し合いました。",
     "day": 8
   },
   {
@@ -5466,9 +5466,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "sector",
-    "point": "sector はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: sector.",
-    "exampleJa": "この表現はTOEICで重要です：部門、分野。",
+    "point": "sector = 部門、分野。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed sector during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「部門、分野」について話し合いました。",
     "day": 8
   },
   {
@@ -5478,9 +5478,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "statistically",
-    "point": "statistically はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: statistically.",
-    "exampleJa": "この表現はTOEICで重要です：統計的に。",
+    "point": "statistically = 統計的に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded statistically to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「統計的に」対応しました。",
     "day": 9
   },
   {
@@ -5490,9 +5490,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "statistics",
-    "point": "statistics はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: statistics.",
-    "exampleJa": "この表現はTOEICで重要です：統計。",
+    "point": "statistics = 統計。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed statistics during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「統計」について話し合いました。",
     "day": 9
   },
   {
@@ -5502,9 +5502,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "steep",
-    "point": "steep はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: steep.",
-    "exampleJa": "この表現はTOEICで重要です：急な、高額な。",
+    "point": "steep = 急な、高額な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed steep during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「急な、高額な」について話し合いました。",
     "day": 9
   },
   {
@@ -5514,9 +5514,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "strict",
-    "point": "strict はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: strict.",
-    "exampleJa": "この表現はTOEICで重要です：厳しい。",
+    "point": "strict = 厳しい。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed strict during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「厳しい」について話し合いました。",
     "day": 9
   },
   {
@@ -5526,9 +5526,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "structural",
-    "point": "structural はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: structural.",
-    "exampleJa": "この表現はTOEICで重要です：構造上の。",
+    "point": "structural = 構造上の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed structural during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「構造上の」について話し合いました。",
     "day": 9
   },
   {
@@ -5538,9 +5538,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "substituting",
-    "point": "substituting はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: substituting.",
-    "exampleJa": "この表現はTOEICで重要です：代用する、置き換える。",
+    "point": "substituting = 代用する、置き換える。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed substituting during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「代用する、置き換える」について話し合いました。",
     "day": 9
   },
   {
@@ -5550,9 +5550,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "suggestion",
-    "point": "suggestion はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: suggestion.",
-    "exampleJa": "この表現はTOEICで重要です：提案。",
+    "point": "suggestion = 提案。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about suggestion.",
+    "exampleJa": "その報告書には「提案」に関する情報が含まれています。",
     "day": 9
   },
   {
@@ -5562,9 +5562,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "thoughtful",
-    "point": "thoughtful はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: thoughtful.",
-    "exampleJa": "この表現はTOEICで重要です：思いやりのある、よく考えられた。",
+    "point": "thoughtful = 思いやりのある、よく考えられた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed thoughtful during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「思いやりのある、よく考えられた」について話し合いました。",
     "day": 9
   },
   {
@@ -5574,9 +5574,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "typically",
-    "point": "typically はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: typically.",
-    "exampleJa": "この表現はTOEICで重要です：通常は。",
+    "point": "typically = 通常は。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded typically to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「通常は」対応しました。",
     "day": 9
   },
   {
@@ -5586,9 +5586,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "undergone",
-    "point": "undergone はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: undergone.",
-    "exampleJa": "この表現はTOEICで重要です：経験した、受けた。",
+    "point": "undergone = 経験した、受けた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed undergone during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「経験した、受けた」について話し合いました。",
     "day": 9
   },
   {
@@ -5598,9 +5598,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "vital",
-    "point": "vital はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: vital.",
-    "exampleJa": "この表現はTOEICで重要です：極めて重要な。",
+    "point": "vital = 極めて重要な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed vital during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「極めて重要な」について話し合いました。",
     "day": 9
   },
   {
@@ -5610,9 +5610,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "widespread",
-    "point": "widespread はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: widespread.",
-    "exampleJa": "この表現はTOEICで重要です：広範囲の。",
+    "point": "widespread = 広範囲の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed widespread during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「広範囲の」について話し合いました。",
     "day": 9
   },
   {
@@ -5622,9 +5622,9 @@ const VOCAB = [
     "priority": 3,
     "star": false,
     "phrase": "yield",
-    "point": "yield はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: yield.",
-    "exampleJa": "この表現はTOEICで重要です：生み出す、収益。",
+    "point": "yield = 生み出す、収益。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed yield during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「生み出す、収益」について話し合いました。",
     "day": 9
   },
   {
@@ -5634,9 +5634,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "blazing",
-    "point": "blazing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows blazing.",
-    "exampleJa": "写真には「燃えている、強烈な」が写っています。",
+    "point": "blazing = 燃えている、強烈な。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is blazing near the work area.",
+    "exampleJa": "人が作業場所の近くで「燃えている、強烈な」動作をしています。",
     "day": 9
   },
   {
@@ -5646,9 +5646,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "boating",
-    "point": "boating はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows boating.",
-    "exampleJa": "写真には「ボート遊びをしている」が写っています。",
+    "point": "boating = ボート遊びをしている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is boating near the work area.",
+    "exampleJa": "人が作業場所の近くで「ボート遊びをしている」動作をしています。",
     "day": 9
   },
   {
@@ -5658,9 +5658,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "cast",
-    "point": "cast はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows cast.",
-    "exampleJa": "写真には「投げる、出演者」が写っています。",
+    "point": "cast = 投げる、出演者。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A cast can be seen in the picture.",
+    "exampleJa": "写真の中に「投げる、出演者」が見えます。",
     "day": 9
   },
   {
@@ -5670,9 +5670,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "cove",
-    "point": "cove はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows cove.",
-    "exampleJa": "写真には「入り江、小さな湾」が写っています。",
+    "point": "cove = 入り江、小さな湾。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A cove can be seen in the picture.",
+    "exampleJa": "写真の中に「入り江、小さな湾」が見えます。",
     "day": 9
   },
   {
@@ -5682,9 +5682,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "dark",
-    "point": "dark はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows dark.",
-    "exampleJa": "写真には「暗い」が写っています。",
+    "point": "dark = 暗い。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A dark can be seen in the picture.",
+    "exampleJa": "写真の中に「暗い」が見えます。",
     "day": 9
   },
   {
@@ -5694,9 +5694,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "earth",
-    "point": "earth はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows earth.",
-    "exampleJa": "写真には「土、地面、地球」が写っています。",
+    "point": "earth = 土、地面、地球。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A earth can be seen in the picture.",
+    "exampleJa": "写真の中に「土、地面、地球」が見えます。",
     "day": 9
   },
   {
@@ -5706,9 +5706,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "exciting",
-    "point": "exciting はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows exciting.",
-    "exampleJa": "写真には「わくわくする」が写っています。",
+    "point": "exciting = わくわくする。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is exciting near the work area.",
+    "exampleJa": "人が作業場所の近くで「わくわくする」動作をしています。",
     "day": 9
   },
   {
@@ -5718,9 +5718,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "hanging art",
-    "point": "hanging art はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows hanging art.",
-    "exampleJa": "写真には「掛けられたアート」が写っています。",
+    "point": "hanging art = 掛けられたアート。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A hanging art can be seen in the picture.",
+    "exampleJa": "写真の中に「掛けられたアート」が見えます。",
     "day": 9
   },
   {
@@ -5730,9 +5730,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "hay",
-    "point": "hay はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows hay.",
-    "exampleJa": "写真には「干し草」が写っています。",
+    "point": "hay = 干し草。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A hay can be seen in the picture.",
+    "exampleJa": "写真の中に「干し草」が見えます。",
     "day": 9
   },
   {
@@ -5742,9 +5742,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "lap",
-    "point": "lap はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows lap.",
-    "exampleJa": "写真には「膝の上」が写っています。",
+    "point": "lap = 膝の上。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A lap can be seen in the picture.",
+    "exampleJa": "写真の中に「膝の上」が見えます。",
     "day": 9
   },
   {
@@ -5754,9 +5754,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "lighthouse",
-    "point": "lighthouse はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows lighthouse.",
-    "exampleJa": "写真には「灯台」が写っています。",
+    "point": "lighthouse = 灯台。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A lighthouse can be seen in the picture.",
+    "exampleJa": "写真の中に「灯台」が見えます。",
     "day": 9
   },
   {
@@ -5766,9 +5766,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "loft",
-    "point": "loft はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows loft.",
-    "exampleJa": "写真には「ロフト、屋根裏」が写っています。",
+    "point": "loft = ロフト、屋根裏。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A loft can be seen in the picture.",
+    "exampleJa": "写真の中に「ロフト、屋根裏」が見えます。",
     "day": 9
   },
   {
@@ -5778,9 +5778,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "lone",
-    "point": "lone はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows lone.",
-    "exampleJa": "写真には「1人の、単独の」が写っています。",
+    "point": "lone = 1人の、単独の。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A lone can be seen in the picture.",
+    "exampleJa": "写真の中に「1人の、単独の」が見えます。",
     "day": 9
   },
   {
@@ -5790,9 +5790,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "mushroom",
-    "point": "mushroom はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows mushroom.",
-    "exampleJa": "写真には「きのこ」が写っています。",
+    "point": "mushroom = きのこ。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A mushroom can be seen in the picture.",
+    "exampleJa": "写真の中に「きのこ」が見えます。",
     "day": 9
   },
   {
@@ -5802,9 +5802,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "pottery",
-    "point": "pottery はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows pottery.",
-    "exampleJa": "写真には「陶器」が写っています。",
+    "point": "pottery = 陶器。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A pottery can be seen in the picture.",
+    "exampleJa": "写真の中に「陶器」が見えます。",
     "day": 9
   },
   {
@@ -5814,9 +5814,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "spectators",
-    "point": "spectators はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows spectators.",
-    "exampleJa": "写真には「観客」が写っています。",
+    "point": "spectators = 観客。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several spectators are arranged near the wall.",
+    "exampleJa": "いくつかの「観客」が壁の近くに並べられています。",
     "day": 9
   },
   {
@@ -5826,9 +5826,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "taking",
-    "point": "taking はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows taking.",
-    "exampleJa": "写真には「取っている、持っていく」が写っています。",
+    "point": "taking = 取っている、持っていく。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is taking near the work area.",
+    "exampleJa": "人が作業場所の近くで「取っている、持っていく」動作をしています。",
     "day": 9
   },
   {
@@ -5838,9 +5838,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "tucking",
-    "point": "tucking はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows tucking.",
-    "exampleJa": "写真には「押し込んでいる、しまい込む」が写っています。",
+    "point": "tucking = 押し込んでいる、しまい込む。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is tucking near the work area.",
+    "exampleJa": "人が作業場所の近くで「押し込んでいる、しまい込む」動作をしています。",
     "day": 9
   },
   {
@@ -5850,9 +5850,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "wines",
-    "point": "wines はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows wines.",
-    "exampleJa": "写真には「ワイン類」が写っています。",
+    "point": "wines = ワイン類。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "Several wines are arranged near the wall.",
+    "exampleJa": "いくつかの「ワイン類」が壁の近くに並べられています。",
     "day": 9
   },
   {
@@ -5862,9 +5862,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "abandoned",
-    "point": "abandoned はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: abandoned.",
-    "exampleJa": "この表現はTOEICで重要です：放棄された。",
+    "point": "abandoned = 放棄された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was abandoned after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「放棄された」状態になりました。",
     "day": 9
   },
   {
@@ -5874,9 +5874,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "abandonment",
-    "point": "abandonment はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: abandonment.",
-    "exampleJa": "この表現はTOEICで重要です：放棄。",
+    "point": "abandonment = 放棄。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about abandonment.",
+    "exampleJa": "その報告書には「放棄」に関する情報が含まれています。",
     "day": 9
   },
   {
@@ -5886,9 +5886,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "acknowledgement",
-    "point": "acknowledgement はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: acknowledgement.",
-    "exampleJa": "この表現はTOEICで重要です：承認、謝辞。",
+    "point": "acknowledgement = 承認、謝辞。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about acknowledgement.",
+    "exampleJa": "その報告書には「承認、謝辞」に関する情報が含まれています。",
     "day": 9
   },
   {
@@ -5898,9 +5898,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "acquaintance",
-    "point": "acquaintance はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: acquaintance.",
-    "exampleJa": "この表現はTOEICで重要です：知人。",
+    "point": "acquaintance = 知人。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about acquaintance.",
+    "exampleJa": "その報告書には「知人」に関する情報が含まれています。",
     "day": 9
   },
   {
@@ -5910,9 +5910,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "activity",
-    "point": "activity はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: activity.",
-    "exampleJa": "この表現はTOEICで重要です：活動。",
+    "point": "activity = 活動。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about activity.",
+    "exampleJa": "その報告書には「活動」に関する情報が含まれています。",
     "day": 9
   },
   {
@@ -5922,9 +5922,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "affluent",
-    "point": "affluent はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: affluent.",
-    "exampleJa": "この表現はTOEICで重要です：裕福な。",
+    "point": "affluent = 裕福な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed affluent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「裕福な」について話し合いました。",
     "day": 9
   },
   {
@@ -5934,9 +5934,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "approver",
-    "point": "approver はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: approver.",
-    "exampleJa": "この表現はTOEICで重要です：承認者。",
+    "point": "approver = 承認者。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed approver during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「承認者」について話し合いました。",
     "day": 9
   },
   {
@@ -5946,9 +5946,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "at this juncture",
-    "point": "at this juncture はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: at this juncture.",
-    "exampleJa": "この表現はTOEICで重要です：この時点で。",
+    "point": "at this juncture = この時点で。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed at this juncture during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「この時点で」について話し合いました。",
     "day": 9
   },
   {
@@ -5958,9 +5958,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "averse",
-    "point": "averse はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: averse.",
-    "exampleJa": "この表現はTOEICで重要です：嫌がる。",
+    "point": "averse = 嫌がる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed averse during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「嫌がる」について話し合いました。",
     "day": 9
   },
   {
@@ -5970,9 +5970,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "belief",
-    "point": "belief はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: belief.",
-    "exampleJa": "この表現はTOEICで重要です：信念、考え。",
+    "point": "belief = 信念、考え。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed belief during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「信念、考え」について話し合いました。",
     "day": 9
   },
   {
@@ -5982,9 +5982,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "broadly",
-    "point": "broadly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: broadly.",
-    "exampleJa": "この表現はTOEICで重要です：広く。",
+    "point": "broadly = 広く。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded broadly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「広く」対応しました。",
     "day": 9
   },
   {
@@ -5994,9 +5994,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "casually",
-    "point": "casually はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: casually.",
-    "exampleJa": "この表現はTOEICで重要です：何気なく、カジュアルに。",
+    "point": "casually = 何気なく、カジュアルに。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded casually to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「何気なく、カジュアルに」対応しました。",
     "day": 9
   },
   {
@@ -6006,9 +6006,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "chore",
-    "point": "chore はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: chore.",
-    "exampleJa": "この表現はTOEICで重要です：雑用。",
+    "point": "chore = 雑用。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed chore during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「雑用」について話し合いました。",
     "day": 9
   },
   {
@@ -6018,9 +6018,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "comfortably",
-    "point": "comfortably はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: comfortably.",
-    "exampleJa": "この表現はTOEICで重要です：快適に。",
+    "point": "comfortably = 快適に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded comfortably to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「快適に」対応しました。",
     "day": 9
   },
   {
@@ -6030,9 +6030,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "comparability",
-    "point": "comparability はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: comparability.",
-    "exampleJa": "この表現はTOEICで重要です：比較可能性。",
+    "point": "comparability = 比較可能性。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about comparability.",
+    "exampleJa": "その報告書には「比較可能性」に関する情報が含まれています。",
     "day": 9
   },
   {
@@ -6042,9 +6042,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "comparatively",
-    "point": "comparatively はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: comparatively.",
-    "exampleJa": "この表現はTOEICで重要です：比較的。",
+    "point": "comparatively = 比較的。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded comparatively to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「比較的」対応しました。",
     "day": 9
   },
   {
@@ -6054,9 +6054,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "consisted",
-    "point": "consisted はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: consisted.",
-    "exampleJa": "この表現はTOEICで重要です：成り立っていた。",
+    "point": "consisted = 成り立っていた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was consisted after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「成り立っていた」状態になりました。",
     "day": 9
   },
   {
@@ -6066,9 +6066,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "criticized",
-    "point": "criticized はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: criticized.",
-    "exampleJa": "この表現はTOEICで重要です：批判した。",
+    "point": "criticized = 批判した。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was criticized after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「批判した」状態になりました。",
     "day": 9
   },
   {
@@ -6078,9 +6078,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "criticizing",
-    "point": "criticizing はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: criticizing.",
-    "exampleJa": "この表現はTOEICで重要です：批判している。",
+    "point": "criticizing = 批判している。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed criticizing during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「批判している」について話し合いました。",
     "day": 9
   },
   {
@@ -6090,9 +6090,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "culinary",
-    "point": "culinary はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: culinary.",
-    "exampleJa": "この表現はTOEICで重要です：料理の。",
+    "point": "culinary = 料理の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed culinary during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「料理の」について話し合いました。",
     "day": 9
   },
   {
@@ -6102,9 +6102,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "cushions",
-    "point": "cushions はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: cushions.",
-    "exampleJa": "この表現はTOEICで重要です：クッション。",
+    "point": "cushions = クッション。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed cushions during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「クッション」について話し合いました。",
     "day": 9
   },
   {
@@ -6114,9 +6114,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "diligent",
-    "point": "diligent はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: diligent.",
-    "exampleJa": "この表現はTOEICで重要です：勤勉な。",
+    "point": "diligent = 勤勉な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed diligent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「勤勉な」について話し合いました。",
     "day": 9
   },
   {
@@ -6126,9 +6126,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "disturbing",
-    "point": "disturbing はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: disturbing.",
-    "exampleJa": "この表現はTOEICで重要です：不快な、邪魔な。",
+    "point": "disturbing = 不快な、邪魔な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed disturbing during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「不快な、邪魔な」について話し合いました。",
     "day": 9
   },
   {
@@ -6138,9 +6138,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "dominating",
-    "point": "dominating はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: dominating.",
-    "exampleJa": "この表現はTOEICで重要です：支配している。",
+    "point": "dominating = 支配している。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed dominating during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「支配している」について話し合いました。",
     "day": 9
   },
   {
@@ -6150,9 +6150,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "edited",
-    "point": "edited はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: edited.",
-    "exampleJa": "この表現はTOEICで重要です：編集された。",
+    "point": "edited = 編集された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was edited after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「編集された」状態になりました。",
     "day": 9
   },
   {
@@ -6162,9 +6162,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "effortlessly",
-    "point": "effortlessly はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: effortlessly.",
-    "exampleJa": "この表現はTOEICで重要です：楽々と。",
+    "point": "effortlessly = 楽々と。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded effortlessly to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「楽々と」対応しました。",
     "day": 10
   },
   {
@@ -6174,9 +6174,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "enlarged",
-    "point": "enlarged はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: enlarged.",
-    "exampleJa": "この表現はTOEICで重要です：拡大された。",
+    "point": "enlarged = 拡大された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was enlarged after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「拡大された」状態になりました。",
     "day": 10
   },
   {
@@ -6186,9 +6186,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "enormously",
-    "point": "enormously はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: enormously.",
-    "exampleJa": "この表現はTOEICで重要です：非常に。",
+    "point": "enormously = 非常に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded enormously to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「非常に」対応しました。",
     "day": 10
   },
   {
@@ -6198,9 +6198,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "ensure justice",
-    "point": "ensure justice はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: ensure justice.",
-    "exampleJa": "この表現はTOEICで重要です：正義を確実にする。",
+    "point": "ensure justice = 正義を確実にする。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed ensure justice during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「正義を確実にする」について話し合いました。",
     "day": 10
   },
   {
@@ -6210,9 +6210,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "excessively",
-    "point": "excessively はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: excessively.",
-    "exampleJa": "この表現はTOEICで重要です：過度に。",
+    "point": "excessively = 過度に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded excessively to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「過度に」対応しました。",
     "day": 10
   },
   {
@@ -6222,9 +6222,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "expound",
-    "point": "expound はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: expound.",
-    "exampleJa": "この表現はTOEICで重要です：詳しく説明する。",
+    "point": "expound = 詳しく説明する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed expound during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「詳しく説明する」について話し合いました。",
     "day": 10
   },
   {
@@ -6234,9 +6234,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "eyesore",
-    "point": "eyesore はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: eyesore.",
-    "exampleJa": "この表現はTOEICで重要です：目障りなもの。",
+    "point": "eyesore = 目障りなもの。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed eyesore during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「目障りなもの」について話し合いました。",
     "day": 10
   },
   {
@@ -6246,9 +6246,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "faithful",
-    "point": "faithful はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: faithful.",
-    "exampleJa": "この表現はTOEICで重要です：忠実な。",
+    "point": "faithful = 忠実な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed faithful during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「忠実な」について話し合いました。",
     "day": 10
   },
   {
@@ -6258,9 +6258,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "flourish",
-    "point": "flourish はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: flourish.",
-    "exampleJa": "この表現はTOEICで重要です：繁栄する。",
+    "point": "flourish = 繁栄する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed flourish during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「繁栄する」について話し合いました。",
     "day": 10
   },
   {
@@ -6270,9 +6270,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "force",
-    "point": "force はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: force.",
-    "exampleJa": "この表現はTOEICで重要です：力、強制する。",
+    "point": "force = 力、強制する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed force during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「力、強制する」について話し合いました。",
     "day": 10
   },
   {
@@ -6282,9 +6282,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "generous",
-    "point": "generous はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: generous.",
-    "exampleJa": "この表現はTOEICで重要です：寛大な、十分な。",
+    "point": "generous = 寛大な、十分な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed generous during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「寛大な、十分な」について話し合いました。",
     "day": 10
   },
   {
@@ -6294,9 +6294,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "gently",
-    "point": "gently はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: gently.",
-    "exampleJa": "この表現はTOEICで重要です：やさしく。",
+    "point": "gently = やさしく。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded gently to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「やさしく」対応しました。",
     "day": 10
   },
   {
@@ -6306,9 +6306,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "genuinely",
-    "point": "genuinely はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: genuinely.",
-    "exampleJa": "この表現はTOEICで重要です：本当に、心から。",
+    "point": "genuinely = 本当に、心から。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded genuinely to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「本当に、心から」対応しました。",
     "day": 10
   },
   {
@@ -6318,9 +6318,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "gorgeous",
-    "point": "gorgeous はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: gorgeous.",
-    "exampleJa": "この表現はTOEICで重要です：豪華な、美しい。",
+    "point": "gorgeous = 豪華な、美しい。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed gorgeous during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「豪華な、美しい」について話し合いました。",
     "day": 10
   },
   {
@@ -6330,9 +6330,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "harmful",
-    "point": "harmful はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: harmful.",
-    "exampleJa": "この表現はTOEICで重要です：有害な。",
+    "point": "harmful = 有害な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed harmful during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「有害な」について話し合いました。",
     "day": 10
   },
   {
@@ -6342,9 +6342,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "head librarian",
-    "point": "head librarian はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: head librarian.",
-    "exampleJa": "この表現はTOEICで重要です：主任司書。",
+    "point": "head librarian = 主任司書。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed head librarian during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「主任司書」について話し合いました。",
     "day": 10
   },
   {
@@ -6354,9 +6354,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "impressed",
-    "point": "impressed はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: impressed.",
-    "exampleJa": "この表現はTOEICで重要です：感銘を受けた。",
+    "point": "impressed = 感銘を受けた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was impressed after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「感銘を受けた」状態になりました。",
     "day": 10
   },
   {
@@ -6366,9 +6366,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "inspired",
-    "point": "inspired はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: inspired.",
-    "exampleJa": "この表現はTOEICで重要です：刺激を受けた、着想を得た。",
+    "point": "inspired = 刺激を受けた、着想を得た。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was inspired after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「刺激を受けた、着想を得た」状態になりました。",
     "day": 10
   },
   {
@@ -6378,9 +6378,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "intermittent",
-    "point": "intermittent はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: intermittent.",
-    "exampleJa": "この表現はTOEICで重要です：断続的な。",
+    "point": "intermittent = 断続的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed intermittent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「断続的な」について話し合いました。",
     "day": 10
   },
   {
@@ -6390,9 +6390,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "lawful",
-    "point": "lawful はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: lawful.",
-    "exampleJa": "この表現はTOEICで重要です：合法の。",
+    "point": "lawful = 合法の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed lawful during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「合法の」について話し合いました。",
     "day": 10
   },
   {
@@ -6402,9 +6402,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "literally",
-    "point": "literally はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: literally.",
-    "exampleJa": "この表現はTOEICで重要です：文字通り。",
+    "point": "literally = 文字通り。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded literally to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「文字通り」対応しました。",
     "day": 10
   },
   {
@@ -6414,9 +6414,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "lively",
-    "point": "lively はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: lively.",
-    "exampleJa": "この表現はTOEICで重要です：活気のある。",
+    "point": "lively = 活気のある。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded lively to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「活気のある」対応しました。",
     "day": 10
   },
   {
@@ -6426,9 +6426,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "moderately",
-    "point": "moderately はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: moderately.",
-    "exampleJa": "この表現はTOEICで重要です：適度に。",
+    "point": "moderately = 適度に。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded moderately to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「適度に」対応しました。",
     "day": 10
   },
   {
@@ -6438,9 +6438,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "namely",
-    "point": "namely はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: namely.",
-    "exampleJa": "この表現はTOEICで重要です：すなわち。",
+    "point": "namely = すなわち。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The staff responded namely to the customer request.",
+    "exampleJa": "スタッフは顧客の依頼に「すなわち」対応しました。",
     "day": 10
   },
   {
@@ -6450,9 +6450,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "orchard",
-    "point": "orchard はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: orchard.",
-    "exampleJa": "この表現はTOEICで重要です：果樹園。",
+    "point": "orchard = 果樹園。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed orchard during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「果樹園」について話し合いました。",
     "day": 10
   },
   {
@@ -6462,9 +6462,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "ordinary",
-    "point": "ordinary はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: ordinary.",
-    "exampleJa": "この表現はTOEICで重要です：普通の。",
+    "point": "ordinary = 普通の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed ordinary during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「普通の」について話し合いました。",
     "day": 10
   },
   {
@@ -6474,9 +6474,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "plenty",
-    "point": "plenty はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: plenty.",
-    "exampleJa": "この表現はTOEICで重要です：たくさん。",
+    "point": "plenty = たくさん。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed plenty during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「たくさん」について話し合いました。",
     "day": 10
   },
   {
@@ -6486,9 +6486,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "poll",
-    "point": "poll はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: poll.",
-    "exampleJa": "この表現はTOEICで重要です：世論調査、投票。",
+    "point": "poll = 世論調査、投票。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed poll during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「世論調査、投票」について話し合いました。",
     "day": 10
   },
   {
@@ -6498,9 +6498,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "portion",
-    "point": "portion はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: portion.",
-    "exampleJa": "この表現はTOEICで重要です：一部、分量。",
+    "point": "portion = 一部、分量。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about portion.",
+    "exampleJa": "その報告書には「一部、分量」に関する情報が含まれています。",
     "day": 10
   },
   {
@@ -6510,9 +6510,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "proliferation",
-    "point": "proliferation はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: proliferation.",
-    "exampleJa": "この表現はTOEICで重要です：急増、拡散。",
+    "point": "proliferation = 急増、拡散。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about proliferation.",
+    "exampleJa": "その報告書には「急増、拡散」に関する情報が含まれています。",
     "day": 10
   },
   {
@@ -6522,9 +6522,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "reverse",
-    "point": "reverse はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: reverse.",
-    "exampleJa": "この表現はTOEICで重要です：逆にする、逆の。",
+    "point": "reverse = 逆にする、逆の。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed reverse during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「逆にする、逆の」について話し合いました。",
     "day": 10
   },
   {
@@ -6534,9 +6534,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "sanctioned",
-    "point": "sanctioned はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: sanctioned.",
-    "exampleJa": "この表現はTOEICで重要です：認可された、制裁を受けた。",
+    "point": "sanctioned = 認可された、制裁を受けた。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was sanctioned after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「認可された、制裁を受けた」状態になりました。",
     "day": 10
   },
   {
@@ -6546,9 +6546,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "sensible",
-    "point": "sensible はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: sensible.",
-    "exampleJa": "この表現はTOEICで重要です：賢明な、実用的な。",
+    "point": "sensible = 賢明な、実用的な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed sensible during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「賢明な、実用的な」について話し合いました。",
     "day": 10
   },
   {
@@ -6558,9 +6558,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "souvenir",
-    "point": "souvenir はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: souvenir.",
-    "exampleJa": "この表現はTOEICで重要です：お土産、記念品。",
+    "point": "souvenir = お土産、記念品。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed souvenir during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「お土産、記念品」について話し合いました。",
     "day": 10
   },
   {
@@ -6570,9 +6570,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "spell",
-    "point": "spell はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: spell.",
-    "exampleJa": "この表現はTOEICで重要です：つづる。",
+    "point": "spell = つづる。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed spell during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「つづる」について話し合いました。",
     "day": 10
   },
   {
@@ -6582,9 +6582,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "strategists",
-    "point": "strategists はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: strategists.",
-    "exampleJa": "この表現はTOEICで重要です：戦略家。",
+    "point": "strategists = 戦略家。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed strategists during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「戦略家」について話し合いました。",
     "day": 10
   },
   {
@@ -6594,9 +6594,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "styled",
-    "point": "styled はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: styled.",
-    "exampleJa": "この表現はTOEICで重要です：様式化された。",
+    "point": "styled = 様式化された。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The schedule was styled after the client meeting.",
+    "exampleJa": "顧客との会議後、予定は「様式化された」状態になりました。",
     "day": 10
   },
   {
@@ -6606,9 +6606,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "token",
-    "point": "token はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: token.",
-    "exampleJa": "この表現はTOEICで重要です：しるし、トークン。",
+    "point": "token = しるし、トークン。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed token during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「しるし、トークン」について話し合いました。",
     "day": 10
   },
   {
@@ -6618,9 +6618,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "volunteer",
-    "point": "volunteer はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: volunteer.",
-    "exampleJa": "この表現はTOEICで重要です：ボランティア、志願する。",
+    "point": "volunteer = ボランティア、志願する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed volunteer during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「ボランティア、志願する」について話し合いました。",
     "day": 10
   },
   {
@@ -6630,9 +6630,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "wealthy",
-    "point": "wealthy はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: wealthy.",
-    "exampleJa": "この表現はTOEICで重要です：裕福な。",
+    "point": "wealthy = 裕福な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed wealthy during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「裕福な」について話し合いました。",
     "day": 10
   },
   {
@@ -6642,9 +6642,9 @@ const VOCAB = [
     "priority": 2,
     "star": false,
     "phrase": "wholesome recipe",
-    "point": "wholesome recipe はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: wholesome recipe.",
-    "exampleJa": "この表現はTOEICで重要です：健康的なレシピ。",
+    "point": "wholesome recipe = 健康的なレシピ。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed wholesome recipe during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「健康的なレシピ」について話し合いました。",
     "day": 10
   },
   {
@@ -6654,9 +6654,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "accoutered",
-    "point": "accoutered はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows accoutered.",
-    "exampleJa": "写真には「装備した、身につけた」が写っています。",
+    "point": "accoutered = 装備した、身につけた。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A accoutered can be seen in the picture.",
+    "exampleJa": "写真の中に「装備した、身につけた」が見えます。",
     "day": 10
   },
   {
@@ -6666,9 +6666,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "battling",
-    "point": "battling はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows battling.",
-    "exampleJa": "写真には「戦っている」が写っています。",
+    "point": "battling = 戦っている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is battling near the work area.",
+    "exampleJa": "人が作業場所の近くで「戦っている」動作をしています。",
     "day": 10
   },
   {
@@ -6678,9 +6678,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "re-merchandise",
-    "point": "re-merchandise はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows re-merchandise.",
-    "exampleJa": "写真には「商品陳列をやり直す」が写っています。",
+    "point": "re-merchandise = 商品陳列をやり直す。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A re-merchandise can be seen in the picture.",
+    "exampleJa": "写真の中に「商品陳列をやり直す」が見えます。",
     "day": 10
   },
   {
@@ -6690,9 +6690,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "shooing",
-    "point": "shooing はTOEIC Part 1の写真描写で出やすい語。写真の中の物・動作・位置として一瞬で意味を取る。",
-    "example": "The photo shows shooing.",
-    "exampleJa": "写真には「追い払っている」が写っています。",
+    "point": "shooing = 追い払っている。Part 1では写真を見た瞬間に、物・場所・動作として判断する。",
+    "example": "A person is shooing near the work area.",
+    "exampleJa": "人が作業場所の近くで「追い払っている」動作をしています。",
     "day": 10
   },
   {
@@ -6702,9 +6702,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "ardent",
-    "point": "ardent はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: ardent.",
-    "exampleJa": "この表現はTOEICで重要です：熱烈な。",
+    "point": "ardent = 熱烈な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed ardent during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「熱烈な」について話し合いました。",
     "day": 10
   },
   {
@@ -6714,9 +6714,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "cynic",
-    "point": "cynic はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: cynic.",
-    "exampleJa": "この表現はTOEICで重要です：皮肉屋。",
+    "point": "cynic = 皮肉屋。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed cynic during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「皮肉屋」について話し合いました。",
     "day": 10
   },
   {
@@ -6726,9 +6726,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "hardy",
-    "point": "hardy はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: hardy.",
-    "exampleJa": "この表現はTOEICで重要です：丈夫な。",
+    "point": "hardy = 丈夫な。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed hardy during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「丈夫な」について話し合いました。",
     "day": 10
   },
   {
@@ -6738,9 +6738,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "particle",
-    "point": "particle はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: particle.",
-    "exampleJa": "この表現はTOEICで重要です：粒子、小片。",
+    "point": "particle = 粒子、小片。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed particle during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「粒子、小片」について話し合いました。",
     "day": 10
   },
   {
@@ -6750,9 +6750,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "placid",
-    "point": "placid はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: placid.",
-    "exampleJa": "この表現はTOEICで重要です：穏やかな。",
+    "point": "placid = 穏やかな。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed placid during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「穏やかな」について話し合いました。",
     "day": 10
   },
   {
@@ -6762,9 +6762,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "purge",
-    "point": "purge はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: purge.",
-    "exampleJa": "この表現はTOEICで重要です：取り除く、一掃する。",
+    "point": "purge = 取り除く、一掃する。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The company discussed purge during the quarterly meeting.",
+    "exampleJa": "その会社は四半期会議で「取り除く、一掃する」について話し合いました。",
     "day": 10
   },
   {
@@ -6774,9 +6774,9 @@ const VOCAB = [
     "priority": 1,
     "star": false,
     "phrase": "relativity",
-    "point": "relativity はTOEIC Part 5/7で意味を即答したい語。前後の語とセットで覚える。",
-    "example": "This expression is important in TOEIC: relativity.",
-    "exampleJa": "この表現はTOEICで重要です：相対性、関連性。",
+    "point": "relativity = 相対性、関連性。Part 5/7では意味だけでなく、例文の前後関係で覚える。",
+    "example": "The report includes information about relativity.",
+    "exampleJa": "その報告書には「相対性、関連性」に関する情報が含まれています。",
     "day": 10
   }
 ];
